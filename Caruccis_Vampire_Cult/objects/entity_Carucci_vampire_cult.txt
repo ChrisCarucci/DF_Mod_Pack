@@ -98,7 +98,7 @@
  ; Custom altar
  [PERMITTED_BUILDING:SACRIFICIAL_ALTAR]
 
- ; Aeramore Expansion Mod v7.33 compatibility (example tokens)
+ ; Aeramore compatibility (example tokens)
  [WEAPON:AERAMORE_HALBERD]
  [WEAPON:AERAMORE_RAPIER]
  [ARMOR:AERAMORE_BATTLEPLATE]
