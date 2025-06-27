@@ -1,27 +1,125 @@
 [OBJECT:CREATURE]
 
-[CREATURE:VAMPIRE_CULTIST]
-    [DESCRIPTION:A pale, immortal being who feeds on blood and spreads a secretive cult.]
-    [NAME:vampire cultist:vampire cultists:vampire cultist]
-    [CASTE_NAME:vampire cultist:vampire cultists:vampire cultist]
-    [CREATURE_TILE:'V'][COLOR:5:0:1]
-    [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
-    [NO_DRINK][NO_EAT][NO_SLEEP]
-    [NOT_LIVING][NO_AGING]
-    [BLOODSUCKER]
-    [NOBLEED]
-    [NIGHT_CREATURE_HUNTER]
-    [EVIL]
-    [SPHERE:DEATH][SPHERE:NIGHT][SPHERE:TRICKERY]
-    [BODY:HUMANOID]
-    [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
-    [BODY_DETAIL_PLAN:STANDARD_TISSUES]
-    [BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
-    [TISSUE_LAYER:EYEBROW:BY_CATEGORY:HEAD]
-    [TISSUE:EYEBROW]
-        [TISSUE_NAME:eyebrow:eyebrows]
-        [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:HAIR]
-        [RELATIVE_THICKNESS:1]
-        [TISSUE_SHAPE:LAYER]
-    [CASTE:MALE][MALE]
-    [CASTE:FEMALE][FEMALE]
+##############
+# GARGOYLE
+##############
+[CREATURE:CARUCCI_GARGOYLE]
+ [NAME:gargoyle:gargoyles:gargoyle]
+ [DESCRIPTION:A horned, winged stone sentinel infused with necromantic energy.]
+ [CREATURE_TILE:'G'][COLOR:5:5:5]
+ [CASTE:MALE]
+  [BODY:HUMANOID_NECK:2WINGS:2EYES:FANGS:TAIL]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS][FLIER]
+  [NO_DRINK][NO_EAT][NO_SLEEP]
+  [MATERIAL:PRESERVE]
+  [NATURAL_ARMOR:STONE]
+  [ITEMCORPSE:STATUE:NO_SUBTYPE:STONE:GRANITE]
+  [CAN_DO_INTERACTION:MATERIAL_EMISSION]
+  [APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:105:110:115]
+ [SELECT_CASTE:ALL]
+  [BODY_SIZE:0:0:40000]
+
+##############
+# LIVING ARMOR
+##############
+[CREATURE:CARUCCI_LIVING_ARMOR]
+ [NAME:living armor:living armors:armor]
+ [DESCRIPTION:A suit of armor animated by sacrificial magic to guard the cult.]
+ [CREATURE_TILE:'A'][COLOR:7:7:1]
+ [CASTE:MALE]
+  [BODY:HUMANOID_NECK:2EYES:MOUTH]
+  [EQUIPS][NO_DRINK][NO_EAT][NO_SLEEP][NO_FEAR]
+  [NO_THOUGHT_CENTER_FOR_MOVEMENT]  # feels uncanny
+  [ITEMCORPSE:ITEM_ARMOR_PLATE:IRON]
+  [NATURAL_SKILL:MELEE_COMBAT:8]
+ [SELECT_CASTE:ALL]
+  [BODY_SIZE:0:0:45000]
+
+##############
+# VAMPIRE KING (TRANSFORMABLE)
+##############
+[CREATURE:CARUCCI_VAMPIRE_KING]
+ [NAME:vampire king:vampire kings:vampire king]
+ [DESCRIPTION:The male sovereign of blood, able to transform into a monstrous form.]
+ [CREATURE_TILE:'K'][COLOR:4:0:0]
+ [CASTE:BASE]
+  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS]
+  [TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
+  [INTELLIGENT]
+  [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
+  [CDI:ADV_NAME:Embrace the Monstrous Form]
+  [CDI:TARGET:C:SELF_ONLY]
+  [CDI:USAGE_HINT:DEFENSIVE]
+  [CDI:WAIT_PERIOD:86400]  # once per day
+
+ [CASTE:TRANSFORMED]
+  [NAME:transformed king:transformed kings:transformed vampire]
+  [DESCRIPTION:A transformed vampire king, twisted by ancient blood rites.]
+  [BODY:HUMANOID_NECK:WINGS:2EYES:FANGS:MOUTH:TAIL]
+  [FLIER][TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
+  [CREATURE_TILE:'T'][COLOR:4:0:1]
+
+##############
+# VAMPIRE QUEEN (TRANSFORMABLE)
+##############
+[CREATURE:CARUCCI_VAMPIRE_QUEEN]
+ [NAME:vampire queen:vampire queens:vampire queen]
+ [DESCRIPTION:The matron of the cult, graceful and terrifying. She can also transform.]
+ [CREATURE_TILE:'Q'][COLOR:5:0:1]
+ [CASTE:BASE]
+  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS]
+  [TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
+  [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
+  [CDI:ADV_NAME:Unleash Vampiric Ascendance]
+  [CDI:TARGET:C:SELF_ONLY]
+  [CDI:USAGE_HINT:DEFENSIVE]
+  [CDI:WAIT_PERIOD:86400]
+
+ [CASTE:TRANSFORMED]
+  [NAME:transformed queen:transformed queens:transformed vampire]
+  [DESCRIPTION:The queen reborn in flight and fury.]
+  [BODY:HUMANOID_NECK:WINGS:2EYES:FANGS:MOUTH:TAIL]
+  [FLIER][TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
+  [CREATURE_TILE:'T'][COLOR:5:0:2]
+
+##############
+# WEREWOLF (FIXED FORM)
+##############
+[CREATURE:CARUCCI_WEREWOLF]
+ [NAME:werewolf:werewolves:werewolf]
+ [DESCRIPTION:A beast forever trapped in its hybrid form, loyal to the vampire cult.]
+ [CREATURE_TILE:'W'][COLOR:1:0:0]
+ [CASTE:FUSED]
+  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH:TAIL:4LEGS]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS]
+  [NO_DRINK][NO_EAT][NO_SLEEP]
+  [POPULATION_NUMBER:3:3]
+  [NO_BREEDING]
+  [APPEARANCE_MODIFIER:BUILD:200:200:225:250:275:300:325]
+ [SELECT_CASTE:ALL]
+  [BODY_SIZE:0:0:48000]
+
+
+# CULTIST AND VAMPIRE ACOLYTE
+
+[CREATURE:CARUCCI_CULTIST]
+ [NAME:cultist:cultists:cultist]
+ ...
+ [CASTE:DEFAULT]
+  [DESCRIPTION:A loyal human follower of the vampire cult.]
+  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS]
+  ...
+
+
+ [CASTE:LESSER_VAMPIRE]
+  [NAME:lesser vampire:lesser vampires:lesser vampire]
+  [DESCRIPTION:A newly turned, unstable vampire acolyte with faint powers.]
+  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS]
+  [NO_DRINK][NO_EAT][NO_SLEEP]
+  [TRANCES]
+  [NATURAL_SKILL:BITE:5]
+  [PHYS_ATT_RANGE:STRENGTH:800:950:1000:1050:1100:1200:1300]

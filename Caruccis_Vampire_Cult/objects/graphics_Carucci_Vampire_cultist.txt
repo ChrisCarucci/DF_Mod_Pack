@@ -1,0 +1,24 @@
+[OBJECT:GRAPHICS]
+
+[CREATURE_GRAPHICS:CARUCCI_VAMPIRE_KING]
+ [DEFAULT:images/vampire_king_base.png:0:0:AS_IS:DEFAULT]
+ [CASTE:TRANSFORMED:images/transformed_king.png:0:0:AS_IS:DEFAULT]
+
+[CREATURE_GRAPHICS:CARUCCI_VAMPIRE_QUEEN]
+ [DEFAULT:images/vampire_queen_base.png:0:0:AS_IS:DEFAULT]
+ [CASTE:TRANSFORMED:images/transformed_queen.png:0:0:AS_IS:DEFAULT]
+
+[CREATURE_GRAPHICS:CARUCCI_GARGOYLE]
+ [DEFAULT:images/gargoyle.png:0:0:AS_IS:DEFAULT]
+
+[CREATURE_GRAPHICS:CARUCCI_LIVING_ARMOR]
+ [DEFAULT:images/living_armor.png:0:0:AS_IS:DEFAULT]
+
+[CREATURE_GRAPHICS:CARUCCI_WEREWOLF]
+ [DEFAULT:images/werewolf.png:0:0:AS_IS:DEFAULT]
+
+[CREATURE_GRAPHICS:CARUCCI_CULTIST]
+ [CASTE:LESSER_VAMPIRE:images/lesser_vampire.png:0:0:AS_IS:DEFAULT]
+ ; Default caste uses vanilla human sprites, so no override here
+
+
