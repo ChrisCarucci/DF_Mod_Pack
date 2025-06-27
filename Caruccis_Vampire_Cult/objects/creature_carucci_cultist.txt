@@ -1,6 +1,7 @@
 [OBJECT:CREATURE]
 
 [CREATURE:CARUCCI_CULTIST]
+    [SELECT_CASTE:DEFAULT_MALE]
     [DESCRIPTION:A blood-bound cultist—mortal or monster, all serve darkness.]
     [CREATURE_TILE:'C'][COLOR:5:0:0]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
