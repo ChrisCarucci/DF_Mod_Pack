@@ -2,9 +2,10 @@ item_toy_empire
 
 [OBJECT:ITEM]
 
-[ITEM_TOY:ITEM_TOY_SCIMITAR]
+[ITEM_TOY:ITEM_TOY_SCIMITAR_HUMAN]
 [NAME:toy scimitar:toy scimitars]
 [HARD_MAT]
+
 
 [ITEM_TOY:ITEM_TOY_KNIGHT]
 [NAME:toy knight:toy knights]

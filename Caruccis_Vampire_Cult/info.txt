@@ -1,0 +1,5 @@
+[MOD:spellcrafts_stub]
+[NAME:Spellcrafts Compatibility Stub]
+[DESCRIPTION:Minimal placeholder interactions for resolving missing spell references]
+[NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]

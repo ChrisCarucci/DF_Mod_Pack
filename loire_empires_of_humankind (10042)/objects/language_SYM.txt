@@ -93,8 +93,8 @@ language_empire_patch
 		[THE_NOUN_SING]
 		[OF_NOUN_SING]
 
-[WORD:EMPIRE]
-	[NOUN:empire:empires]
+[WORD:EMPYRE]
+	[NOUN:empyre:empyres]
 		[FRONT_COMPOUND_NOUN_SING]
 		[REAR_COMPOUND_NOUN_SING]
 		[THE_COMPOUND_NOUN_SING]
