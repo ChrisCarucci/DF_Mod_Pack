@@ -9,20 +9,23 @@
  [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
  [NO_DRINK][NO_EAT][NO_SLEEP][NOT_LIVING]
  [DOES_NOT_NEED_BREATH][NOBLEED][NOFEAR]
+
  [CASTE:BASE]
   [MALE]
   [DESCRIPTION:A king turned vampire, ancient and powerful.]
+  [BLOODSUCKER]
 
  [CASTE:TRANSFORMED]
   [MALE]
   [DESCRIPTION:A bat-winged, blood-soaked vampire lord.]
-  [BODY_DETAIL_PLAN:BAT_WINGS]
-
- [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
-  [CDI:ADV_NAME:Transform to Bat Form]
-  [CDI:TARGET:C:SELF_ONLY]
-  [CDI:VERB:transform:transforms]
-  [CDI:WAIT_PERIOD:100]
+  [BLOODSUCKER]
+  [BODY:HUMANOID:BAT_WINGS]
+  [BODY_DETAIL_PLAN:STANDARD_WING_TISSUE_LAYERS]
+  [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
+   [CDI:ADV_NAME:Transform to Bat Form]
+   [CDI:TARGET:C:SELF_ONLY]
+   [CDI:VERB:transform:transforms]
+   [CDI:WAIT_PERIOD:100]
 
 ###############################
 # VAMPIRE QUEEN
@@ -33,20 +36,23 @@
  [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
  [NO_DRINK][NO_EAT][NO_SLEEP][NOT_LIVING]
  [DOES_NOT_NEED_BREATH][NOBLEED][NOFEAR]
+
  [CASTE:BASE]
   [FEMALE]
   [DESCRIPTION:A queen cursed with eternal night, following her love to Death.]
+  [BLOODSUCKER]
 
  [CASTE:TRANSFORMED]
   [FEMALE]
   [DESCRIPTION:A monstrous matron cloaked in shadow and wings.]
-  [BODY_DETAIL_PLAN:BAT_WINGS]
-
- [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
-  [CDI:ADV_NAME:Transform to Bat Form]
-  [CDI:TARGET:C:SELF_ONLY]
-  [CDI:VERB:transform:transforms]
-  [CDI:WAIT_PERIOD:100]
+  [BLOODSUCKER]
+  [BODY:HUMANOID:BAT_WINGS]
+  [BODY_DETAIL_PLAN:STANDARD_WING_TISSUE_LAYERS]
+  [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
+   [CDI:ADV_NAME:Transform to Bat Form]
+   [CDI:TARGET:C:SELF_ONLY]
+   [CDI:VERB:transform:transforms]
+   [CDI:WAIT_PERIOD:100]
 
 ###############################
 # CULTIST & LESSER VAMPIRE FORMS
@@ -56,7 +62,7 @@
  [CREATURE_TILE:'c'][COLOR:3:0:0]
  [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
- ; ▶ Vanilla-style cultist castes (use default DF human sprites)
+ ; Vanilla-style mortal cultists
  [CASTE:DEFAULT_MALE]
   [MALE]
   [DESCRIPTION:A mortal male cultist devoted to darkness.]
@@ -65,18 +71,20 @@
   [FEMALE]
   [DESCRIPTION:A mortal female cultist with a soft voice and sharp intent.]
 
- ; ▶ Transformed vampire castes (linked to custom sprites)
+ ; Transformed vampire forms
  [CASTE:LESSER_VAMPIRE_MALE]
   [MALE]
   [DESCRIPTION:A male cultist reborn in undeath and hunger.]
+  [BLOODSUCKER]
   [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NOBLEED][NOFEAR]
 
  [CASTE:LESSER_VAMPIRE_FEMALE]
   [FEMALE]
   [DESCRIPTION:A female cultist transformed into a bloodbound servant.]
+  [BLOODSUCKER]
   [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NOBLEED][NOFEAR]
 
- ; ▶ Shared conversion ability
+ ; Shared vampire transformation
  [CAN_DO_INTERACTION:VAMPIRIC_CONVERSION]
   [CDI:ADV_NAME:Convert Cultist]
   [CDI:TARGET:A:LINE_OF_SIGHT]
@@ -90,7 +98,7 @@
  [NAME:feral werewolf:feral werewolves:feral werewolf]
  [CREATURE_TILE:'W'][COLOR:1:0:0]
  [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
- [BUILDINGDESTROYER:2][BLOODSUCKER]
+ [BUILDINGDESTROYER:2]
  [CASTE:DEFAULT]
   [DESCRIPTION:A loyal, savage beast bound by ritual.]
 
