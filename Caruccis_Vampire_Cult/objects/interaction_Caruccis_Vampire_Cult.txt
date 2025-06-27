@@ -51,24 +51,37 @@
 ###############################################
 [INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
  [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:A:CREATURE]
-  [IT_LOCATION:CONTEXT_CREATURE]
- [I_EFFECT:CREATURE_TRANSFORMATION]
-  [IE_TARGET:A]
-  [CREATURE:CARUCCI_VAMPIRE_KING]
-  [CASTE:TRANSFORMED]
+ [I_TARGET:C:SELF_ONLY]
+ [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+ [I_EFFECT:BODY_TRANSFORMATION]
+  [IE_IMMEDIATE]
+  [CE_BODY_TRANSFORMATION:START:0]
+   [CE:CREATURE:CARUCCI_VAMPIRE_KING:TRANSFORMED]
+
+ [CDI:ADV_NAME:Transform into Winged King]
+ [CDI:USAGE_HINT:ATTACK]
+ [CDI:TARGET:C:SELF_ONLY]
+ [CDI:VERB:transform into a winged vampire:transforms into a winged vampire]
+ [CDI:WAIT_PERIOD:100]
 
 ###############################################
 # 👑 Transform Vampire Queen – Battle Form
 ###############################################
 [INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
  [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:A:CREATURE]
-  [IT_LOCATION:CONTEXT_CREATURE]
- [I_EFFECT:CREATURE_TRANSFORMATION]
-  [IE_TARGET:A]
-  [CREATURE:CARUCCI_VAMPIRE_QUEEN]
-  [CASTE:TRANSFORMED]
+ [I_TARGET:C:SELF_ONLY]
+ [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+ [I_EFFECT:BODY_TRANSFORMATION]
+  [IE_IMMEDIATE]
+  [CE_BODY_TRANSFORMATION:START:0]
+   [CE:CREATURE:CARUCCI_VAMPIRE_QUEEN:TRANSFORMED]
+
+ [CDI:ADV_NAME:Transform into Winged Queen]
+ [CDI:USAGE_HINT:ATTACK]
+ [CDI:TARGET:C:SELF_ONLY]
+ [CDI:VERB:transform into a winged vampire matron:transforms into a winged vampire matron]
+ [CDI:WAIT_PERIOD:100]
+
 
 ###############################################
 # 🧛 Vampiric Conversion – Cultist to Lesser Vampire
