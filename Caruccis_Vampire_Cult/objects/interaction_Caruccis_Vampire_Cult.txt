@@ -65,6 +65,24 @@
  [CDI:WAIT_PERIOD:100]
 
 ###############################################
+# 👑 REVERT Vampire King – Battle Form
+###############################################
+[INTERACTION:REVERT_FROM_BAT_FORM_KING]
+ [I_SOURCE:CREATURE_ACTION]
+ [I_TARGET:C:SELF_ONLY]
+ [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+ [I_EFFECT:BODY_TRANSFORMATION]
+  [IE_IMMEDIATE]
+  [CE_BODY_TRANSFORMATION:START:0]
+   [CE:CREATURE:CARUCCI_VAMPIRE_KING:BASE]
+
+ [CDI:ADV_NAME:Revert to Regal Form]
+ [CDI:USAGE_HINT:ATTACK]
+ [CDI:TARGET:C:SELF_ONLY]
+ [CDI:VERB:revert to regal form:reverts to regal form]
+ [CDI:WAIT_PERIOD:100]
+
+###############################################
 # 👑 Transform Vampire Queen – Battle Form
 ###############################################
 [INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
@@ -81,6 +99,27 @@
  [CDI:TARGET:C:SELF_ONLY]
  [CDI:VERB:transform into a winged vampire matron:transforms into a winged vampire matron]
  [CDI:WAIT_PERIOD:100]
+
+
+ ###############################################
+# 👑 REVERT Vampire Queen – Battle Form
+###############################################
+
+[INTERACTION:REVERT_FROM_BAT_FORM_QUEEN]
+ [I_SOURCE:CREATURE_ACTION]
+ [I_TARGET:C:SELF_ONLY]
+ [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+ [I_EFFECT:BODY_TRANSFORMATION]
+  [IE_IMMEDIATE]
+  [CE_BODY_TRANSFORMATION:START:0]
+   [CE:CREATURE:CARUCCI_VAMPIRE_QUEEN:BASE]
+
+ [CDI:ADV_NAME:Revert to Queenly Form]
+ [CDI:USAGE_HINT:ATTACK]
+ [CDI:TARGET:C:SELF_ONLY]
+ [CDI:VERB:revert to queenly form:reverts to queenly form]
+ [CDI:WAIT_PERIOD:100]
+
 
 
 ###############################################
