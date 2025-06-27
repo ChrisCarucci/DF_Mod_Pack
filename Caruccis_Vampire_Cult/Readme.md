@@ -1,41 +1,56 @@
-📜 About the Mod
-The Carucci Vampire Cult mod introduces a playable civilization to Dwarf Fortress inspired by classic vampire mythos, gothic horror, and esoteric hierarchies. Designed for fortress and worldgen play, the cult thrives in savage, evil biomes and blends immersive storytelling with robust mechanics.
-
-Lead a society of secretive cultists, blood-bound vampires, vermin-haunted altars, and crimson royalty.
+=
 
 > “There are those who build with stone, and those who build with blood. We are the latter.”
+=🦇 Carucci’s Vampire Cult
+A total conversion civilization mod for Dwarf Fortress
 
-🧬 Features
-Playable Civilization: Fully controllable in Fortress Mode with trade, religion, military, and diplomacy
+🩸 Overview
+Carucci’s Vampire Cult introduces a sinister, blood-bound civilization led by immortal royalty and steeped in forbidden rituals. From ascension rites and sacrificial altars to castes like gargoyles, living armor, and werewolves, this mod transforms Fortress Mode into a gothic empire simulator — complete with role-based politics, vermin-consuming altars, and powerful transformations tied to bloodstone relics.
 
-Caste-Structured Creatures:
+🧛‍♂️ Key Features
+Modular Vampire Civilization Spawned in evil biomes, the cult generates in worldgen and includes a deep caste hierarchy and lore-rich society.
 
-Mortal cultists (male/female) using vanilla human sprites
+Unique Castes with Powers
 
-Transformed vampires (lesser vampires, Vampire King/Queen)
+MORTAL_MALE and MORTAL_FEMALE: Common initiates and workers
 
-Custom creatures including Living Armor, Gargoyles, Werewolves
+LESSER_VAMPIRE: Mid-tier caste with enhanced strength
 
-Royal Caste Restriction: Only the Vampire King and Queen may hold the roles of Blood Sovereign and Crimson Matron
+VAMPIRE_KING/QUEEN: Ascended monarchs, capable of transformation
 
-Unique Workshops:
+WEREWOLF, GARGOYLE, LIVING_ARMOR: Rare castes with custom bodies, graphics, and abilities
 
-Sacrificial Altar: draws vermin and powers bloodstone-based rituals
+VAMPIRE_KING_TRANSFORMED and VAMPIRE_QUEEN_TRANSFORMED: Final forms gained through ritual
 
-Aeramore Mod Integration (v7.33): Full compatibility with unique weapons, armor, and reactions
+Custom Government & Roles 15+ fully playable positions with tailored duties, including:
 
-World Generation Preset: Included world_gen.txt encourages cult spawning in savage, evil biomes
+Blood Sovereign, Crimson Matron, Blood Oracle, Bloodblade
 
+Night Courier, Blood Envoy, Crimson Adjudicator, Blood Warden
 
+Role-specific bodyguards and caste restrictions
 
+Ritual Mechanics
 
-⚠️ Notes & Compatibility
-Compatible with Vanilla DF and the Aeramore Expansion v7.33
+Build the Sacrificial Altar
 
-Designed for Fortress Mode; Adventure Mode support optional
+Use god skulls and bloodstone fragments to perform:
 
-Modular structure allows future expansion (bloodstone syndromes, siege triggers, etc.)
+Ascension rituals (turns a cultist into a Vampire King or Queen based on gender)
 
+Bloodstone enhancements
+
+Blood Amulet crafting
+
+Relics & Reactions
+
+Blood Amulet: A wearable item that boosts speed, strength, and toughness
+
+reaction_bloodstone.txt enables rituals and relic creation via Alchemy
+
+Custom Speech Immersive, caste-specific dialogue — including cryptic whispers, royal proclamations, and feral growls.
+
+Graphics Distinct 64×64 sprites for each caste. No tilepages; uses discreet PNGs for clean integration with tilesets.
 
 ✨ Credits
 Mod & Concept: Chris Carucci
