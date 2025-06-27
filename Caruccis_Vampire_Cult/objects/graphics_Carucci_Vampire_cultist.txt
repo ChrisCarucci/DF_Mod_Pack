@@ -18,7 +18,9 @@
  [DEFAULT:images/werewolf.png:0:0:AS_IS:DEFAULT]
 
 [CREATURE_GRAPHICS:CARUCCI_CULTIST]
- [CASTE:LESSER_VAMPIRE:images/lesser_vampire.png:0:0:AS_IS:DEFAULT]
- ; Default caste uses vanilla human sprites, so no override here
+ [CASTE:LESSER_VAMPIRE_MALE:images/lesser_vampire_male.png:0:0:AS_IS:DEFAULT]
+ [CASTE:LESSER_VAMPIRE_FEMALE:images/lesser_vampire_female.png:0:0:AS_IS:DEFAULT]
+ ; Default cultist caste uses vanilla human graphics
+
 
 

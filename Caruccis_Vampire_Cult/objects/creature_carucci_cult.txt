@@ -1,134 +1,116 @@
 [OBJECT:CREATURE]
 
-##############
-# GARGOYLE
-##############
-[CREATURE:CARUCCI_GARGOYLE]
- [NAME:gargoyle:gargoyles:gargoyle]
- [DESCRIPTION:A horned, winged stone sentinel infused with necromantic energy.]
- [CREATURE_TILE:'G'][COLOR:5:5:5]
- [CASTE:MALE]
-  [BODY:HUMANOID_NECK:2WINGS:2EYES:FANGS:TAIL]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS][FLIER]
-  [NO_DRINK][NO_EAT][NO_SLEEP]
-  [MATERIAL:PRESERVE]
-  [NATURAL_ARMOR:STONE]
-  [ITEMCORPSE:STATUE:NO_SUBTYPE:STONE:GRANITE]
-  [CAN_DO_INTERACTION:MATERIAL_EMISSION]
-  [APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:105:110:115]
- [SELECT_CASTE:ALL]
-  [BODY_SIZE:0:0:40000]
+###############################
+# VAMPIRE KING
+###############################
+[CREATURE:CARUCCI_VAMPIRE_KING]
+ [NAME:vampire king:vampire kings:vampire]
+ [CREATURE_TILE:'K'][COLOR:5:0:0]
+ [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
+ [NO_DRINK][NO_EAT][NO_SLEEP][NOT_LIVING]
+ [DOES_NOT_NEED_BREATH][NOBLEED][NOFEAR]
+ [CASTE:BASE]
+  [MALE]
+  [DESCRIPTION:A king turned vampire, ancient and powerful.]
 
-##############
+ [CASTE:TRANSFORMED]
+  [MALE]
+  [DESCRIPTION:A bat-winged, blood-soaked vampire lord.]
+  [BODY_DETAIL_PLAN:BAT_WINGS]
+
+ [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
+  [CDI:ADV_NAME:Transform to Bat Form]
+  [CDI:TARGET:C:SELF_ONLY]
+  [CDI:VERB:transform:transforms]
+  [CDI:WAIT_PERIOD:100]
+
+###############################
+# VAMPIRE QUEEN
+###############################
+[CREATURE:CARUCCI_VAMPIRE_QUEEN]
+ [NAME:vampire queen:vampire queens:vampire]
+ [CREATURE_TILE:'Q'][COLOR:5:0:1]
+ [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
+ [NO_DRINK][NO_EAT][NO_SLEEP][NOT_LIVING]
+ [DOES_NOT_NEED_BREATH][NOBLEED][NOFEAR]
+ [CASTE:BASE]
+  [FEMALE]
+  [DESCRIPTION:A queen cursed with eternal night.]
+
+ [CASTE:TRANSFORMED]
+  [FEMALE]
+  [DESCRIPTION:A monstrous matron cloaked in shadow and wings.]
+  [BODY_DETAIL_PLAN:BAT_WINGS]
+
+ [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
+  [CDI:ADV_NAME:Transform to Bat Form]
+  [CDI:TARGET:C:SELF_ONLY]
+  [CDI:VERB:transform:transforms]
+  [CDI:WAIT_PERIOD:100]
+
+###############################
+# CULTIST & LESSER VAMPIRE FORMS
+###############################
+[CREATURE:CARUCCI_CULTIST]
+ [NAME:cultist:cultists:human]
+ [CREATURE_TILE:'c'][COLOR:3:0:0]
+ [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
+
+ ; ▶ Vanilla-style cultist castes (use default DF human sprites)
+ [CASTE:DEFAULT_MALE]
+  [MALE]
+  [DESCRIPTION:A mortal male cultist devoted to darkness.]
+
+ [CASTE:DEFAULT_FEMALE]
+  [FEMALE]
+  [DESCRIPTION:A mortal female cultist with a soft voice and sharp intent.]
+
+ ; ▶ Transformed vampire castes (linked to custom sprites)
+ [CASTE:LESSER_VAMPIRE_MALE]
+  [MALE]
+  [DESCRIPTION:A male cultist reborn in undeath and hunger.]
+  [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NOBLEED][NOFEAR]
+
+ [CASTE:LESSER_VAMPIRE_FEMALE]
+  [FEMALE]
+  [DESCRIPTION:A female cultist transformed into a bloodbound servant.]
+  [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NOBLEED][NOFEAR]
+
+ ; ▶ Shared conversion ability
+ [CAN_DO_INTERACTION:VAMPIRIC_CONVERSION]
+  [CDI:ADV_NAME:Convert Cultist]
+  [CDI:TARGET:A:LINE_OF_SIGHT]
+  [CDI:TARGET_RANGE:A:5]
+  [CDI:WAIT_PERIOD:150]
+
+###############################
+# WEREWOLF
+###############################
+[CREATURE:CARUCCI_WEREWOLF]
+ [NAME:feral werewolf:feral werewolves:feral werewolf]
+ [CREATURE_TILE:'W'][COLOR:1:0:0]
+ [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
+ [BUILDINGDESTROYER:2][BLOODSUCKER]
+ [CASTE:DEFAULT]
+  [DESCRIPTION:A loyal, savage beast bound by ritual.]
+
+###############################
+# GARGOYLE
+###############################
+[CREATURE:CARUCCI_GARGOYLE]
+ [NAME:blood gargoyle:blood gargoyles:blood gargoyle]
+ [CREATURE_TILE:'G'][COLOR:2:2:2]
+ [STONECREATURE][NO_DRINK][NO_EAT][NO_SLEEP]
+ [NOT_LIVING][NOBREATH]
+ [CASTE:DEFAULT]
+  [DESCRIPTION:A carved statue given will, protector of crypts.]
+
+###############################
 # LIVING ARMOR
-##############
+###############################
 [CREATURE:CARUCCI_LIVING_ARMOR]
  [NAME:living armor:living armors:armor]
- [DESCRIPTION:A suit of armor animated by sacrificial magic to guard the cult.]
- [CREATURE_TILE:'A'][COLOR:7:7:1]
- [CASTE:MALE]
-  [BODY:HUMANOID_NECK:2EYES:MOUTH]
-  [EQUIPS][NO_DRINK][NO_EAT][NO_SLEEP][NO_FEAR]
-  [NO_THOUGHT_CENTER_FOR_MOVEMENT]  # feels uncanny
-  [ITEMCORPSE:ITEM_ARMOR_PLATE:IRON]
-  [NATURAL_SKILL:MELEE_COMBAT:8]
- [SELECT_CASTE:ALL]
-  [BODY_SIZE:0:0:45000]
-
-##############
-# VAMPIRE KING (TRANSFORMABLE)
-##############
-[CREATURE:CARUCCI_VAMPIRE_KING]
- [NAME:vampire king:vampire kings:vampire king]
- [DESCRIPTION:The male sovereign of blood, able to transform into a monstrous form.]
- [CREATURE_TILE:'K'][COLOR:4:0:0]
- [CASTE:BASE]
-  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS]
-  [TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
-  [INTELLIGENT]
-  [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
-  [CDI:ADV_NAME:Embrace the Monstrous Form]
-  [CDI:TARGET:C:SELF_ONLY]
-  [CDI:USAGE_HINT:DEFENSIVE]
-  [CDI:WAIT_PERIOD:86400]  # once per day
-
- [CASTE:TRANSFORMED]
-  [NAME:transformed king:transformed kings:transformed vampire]
-  [DESCRIPTION:A transformed vampire king, twisted by ancient blood rites.]
-  [BODY:HUMANOID_NECK:WINGS:2EYES:FANGS:MOUTH:TAIL]
-  [FLIER][TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
-  [CREATURE_TILE:'T'][COLOR:4:0:1]
-
-##############
-# VAMPIRE QUEEN (TRANSFORMABLE)
-##############
-[CREATURE:CARUCCI_VAMPIRE_QUEEN]
- [NAME:vampire queen:vampire queens:vampire queen]
- [DESCRIPTION:The matron of the cult, graceful and terrifying. She can also transform.]
- [CREATURE_TILE:'Q'][COLOR:5:0:1]
- [CASTE:BASE]
-  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS]
-  [TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
-  [CAN_DO_INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
-  [CDI:ADV_NAME:Unleash Vampiric Ascendance]
-  [CDI:TARGET:C:SELF_ONLY]
-  [CDI:USAGE_HINT:DEFENSIVE]
-  [CDI:WAIT_PERIOD:86400]
-
- [CASTE:TRANSFORMED]
-  [NAME:transformed queen:transformed queens:transformed vampire]
-  [DESCRIPTION:The queen reborn in flight and fury.]
-  [BODY:HUMANOID_NECK:WINGS:2EYES:FANGS:MOUTH:TAIL]
-  [FLIER][TRANCES][NO_DRINK][NO_EAT][NO_SLEEP]
-  [CREATURE_TILE:'T'][COLOR:5:0:2]
-
-##############
-# WEREWOLF (FIXED FORM)
-##############
-[CREATURE:CARUCCI_WEREWOLF]
- [NAME:werewolf:werewolves:werewolf]
- [DESCRIPTION:A beast forever trapped in its hybrid form, loyal to the vampire cult.]
- [CREATURE_TILE:'W'][COLOR:1:0:0]
- [CASTE:FUSED]
-  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH:TAIL:4LEGS]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS]
-  [NO_DRINK][NO_EAT][NO_SLEEP]
-  [POPULATION_NUMBER:3:3]
-  [NO_BREEDING]
-  [APPEARANCE_MODIFIER:BUILD:200:200:225:250:275:300:325]
- [SELECT_CASTE:ALL]
-  [BODY_SIZE:0:0:48000]
-
-
-# CULTIST AND VAMPIRE ACOLYTE
-
-[CREATURE:CARUCCI_CULTIST]
- [NAME:cultist:cultists:cultist]
- ...
+ [CREATURE_TILE:'A'][COLOR:7:0:1]
+ [NOT_LIVING][NOBREATH][BUILDINGDESTROYER:2]
  [CASTE:DEFAULT]
-  [DESCRIPTION:A loyal human follower of the vampire cult.]
-  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS]
-  ...
-
- [CASTE:Carucci_Lesser_Vampire_male]
-  [NAME:lesser vampire:lesser vampires:lesser vampire]
-  [DESCRIPTION:A newly turned, unstable vampire acolyte with faint powers.]
-  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS]
-  [NO_DRINK][NO_EAT][NO_SLEEP]
-  [TRANCES]
-  [NATURAL_SKILL:BITE:5]
-  [PHYS_ATT_RANGE:STRENGTH:800:950:1000:1050:1100:1200:1300]
-
-  [CASTE:Carucci_Lesser_Vampire_female]
-  [NAME:lesser vampire:lesser vampires:lesser vampire]
-  [DESCRIPTION:A newly turned, unstable vampire acolyte with faint powers.]
-  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
-  [CAN_LEARN][CAN_SPEAK][EQUIPS]
-  [NO_DRINK][NO_EAT][NO_SLEEP]
-  [TRANCES]
-  [NATURAL_SKILL:BITE:5]
-  [PHYS_ATT_RANGE:STRENGTH:800:950:1000:1050:1100:1200:1300]
+  [DESCRIPTION:An animated suit of armor, infused with bloodstone.]
