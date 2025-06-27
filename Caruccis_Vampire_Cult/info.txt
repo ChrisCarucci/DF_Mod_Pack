@@ -7,27 +7,5 @@
 [NAME:Carucci's Vampire Cult]
 [DESCRIPTION:A mod that adds a vampire cult civilization with unique mechanics and lore.]
 
-[OBJECT:CREATURE]
-[OBJECT:ENTITY]
-[OBJECT:BUILDING]
-[OBJECT:INORGANIC]
-[OBJECT:INTERACTION]
-[OBJECT:REACTION]
-[OBJECT:TISSUE_TEMPLATE]
-[OBJECT:GRAPHICS]
 
-objects/creature_carucci_cult.txt
-objects/entity_carucci_cult.txt
-objects/reaction_bloodstone.txt
-objects/interaction_Caruccis_Vampire_Cult.txt
-objects/inorganic_bloodstone.txt
-objects/inorganic_bloodstone_fragment.txt
-objects/inorganic_god_skull.txt
-objects/building_sacrificial_altar.txt
-
-
-graphics/graphics_Carucci_Vampire_cultist.txt
-graphics/graphics_sacrificial_altar.txt
-graphics/graphics_god_skull.txt
-graphics/graphics_bloodstone.txt
 
