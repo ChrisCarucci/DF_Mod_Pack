@@ -1,25 +1,25 @@
 [OBJECT:GRAPHICS]
 
 [CREATURE_GRAPHICS:CARUCCI_VAMPIRE_KING]
- [DEFAULT:images/vampire_king_base.png:0:0:AS_IS:DEFAULT]
- [CASTE:TRANSFORMED:images/transformed_king.png:0:0:AS_IS:DEFAULT]
+ [DEFAULT:images/Carucci_VampireKing_Male.png:0:0:AS_IS:DEFAULT]
+ [CASTE:TRANSFORMED:images/Carucci_Vampire_King_Transformed.png:0:0:AS_IS:DEFAULT]
 
 [CREATURE_GRAPHICS:CARUCCI_VAMPIRE_QUEEN]
- [DEFAULT:images/vampire_queen_base.png:0:0:AS_IS:DEFAULT]
- [CASTE:TRANSFORMED:images/transformed_queen.png:0:0:AS_IS:DEFAULT]
+ [DEFAULT:images/Carucci_Vampire_Queen_Female.png:0:0:AS_IS:DEFAULT]
+ [CASTE:TRANSFORMED:images/Carucci_Vampire_Queen_Transformed.png:0:0:AS_IS:DEFAULT]
 
 [CREATURE_GRAPHICS:CARUCCI_GARGOYLE]
- [DEFAULT:images/gargoyle.png:0:0:AS_IS:DEFAULT]
+ [DEFAULT:images/Carucci_Gargoyle.png:0:0:AS_IS:DEFAULT]
 
 [CREATURE_GRAPHICS:CARUCCI_LIVING_ARMOR]
- [DEFAULT:images/living_armor.png:0:0:AS_IS:DEFAULT]
+ [DEFAULT:images/Carucci_LivingArmor.png:0:0:AS_IS:DEFAULT]
 
 [CREATURE_GRAPHICS:CARUCCI_WEREWOLF]
- [DEFAULT:images/werewolf.png:0:0:AS_IS:DEFAULT]
+ [DEFAULT:images/Carucci_Werewolf.png:0:0:AS_IS:DEFAULT]
 
 [CREATURE_GRAPHICS:CARUCCI_CULTIST]
- [CASTE:LESSER_VAMPIRE_MALE:images/lesser_vampire_male.png:0:0:AS_IS:DEFAULT]
- [CASTE:LESSER_VAMPIRE_FEMALE:images/lesser_vampire_female.png:0:0:AS_IS:DEFAULT]
+ [CASTE:LESSER_VAMPIRE_MALE:images/Carucci_Lesser_Vampire_Male.png:0:0:AS_IS:DEFAULT]
+ [CASTE:LESSER_VAMPIRE_FEMALE:images/Carucci_Lesser_Vampire_Female.png:0:0:AS_IS:DEFAULT]
  ; Default cultist caste uses vanilla human graphics
 
 
