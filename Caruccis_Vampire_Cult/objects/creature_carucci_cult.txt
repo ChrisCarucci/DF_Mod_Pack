@@ -107,9 +107,11 @@
 
     [CASTE:DEFAULT]
         [CASTE_NAME:werewolf:werewolves:werewolf]
-        [DESCRIPTION:A loyal, savage beast bound by ritual.]
+        [DESCRIPTION:A loyal, savage beast bound by blood ritual.]
+        [LARGE_PREDATOR]
+        [NOSTUN][NO_AGING]
+        [NO_DRINK][NO_EAT][NO_SLEEP]
         [POP_RATIO:5]
-        [INTELLIGENT][CAN_LEARN]
 
 [CREATURE:CARUCCI_GARGOYLE]
     [NAME:blood gargoyle:blood gargoyles:blood gargoyle]
