@@ -7,6 +7,14 @@
 [NAME:Carucci's Vampire Cult]
 [DESCRIPTION:A mod that adds a vampire cult civilization with unique mechanics and lore.]
 
+[OBJECT:CREATURE]
+[OBJECT:ENTITY]
+[OBJECT:BUILDING]
+[OBJECT:INORGANIC]
+[OBJECT:INTERACTION]
+[OBJECT:REACTION]
+[OBJECT:TISSUE_TEMPLATE]
+[OBJECT:GRAPHICS]
 
 objects/creature_carucci_cult.txt
 objects/entity_carucci_cult.txt
