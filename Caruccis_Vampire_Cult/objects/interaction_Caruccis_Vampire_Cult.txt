@@ -9,16 +9,14 @@
         [SYNDROME:dummy_emission_6x]
             [SYN_NAME:Spellcrafts Emission Placeholder]
             [SYN_AFFECTED_CLASS:GENERAL_POISON]
-            [CE_PAIN:SEV:1:PROB:5:RESISTABLE:NO:BP:HEAD:START:10:PEAK:20:END:40]
+            [CE_PAIN:SEV:1:PROB:5:RESISTABLE:NO:BP:BY_CATEGORY:HEAD:START:10:PEAK:20:END:40]
 
 [INTERACTION:REANIMATE_ZOMBIE_THRALL]
     [I_SOURCE:CREATURE_ACTION]
     [I_TARGET:A:CORPSE]
         [IT_LOCATION:CONTEXT_CREATURE]
     [I_EFFECT:ANIMATE]
-        [TARGET:A]
-        [ANIMATION_TYPE:RAISE_CORPSE]
-        [SKILL:CONCENTRATION]
+        [IE_TARGET:A]
 
 [INTERACTION:SPELL_VAMPIRE_CURSE_PRIMEVAL]
     [I_SOURCE:DEITY]
@@ -32,6 +30,7 @@
 [INTERACTION:SPELLCRAFTS_MATERIAL_EMISSION_9X]
     [I_SOURCE:CREATURE_ACTION]
     [I_TARGET:A:CREATURE]
+        [IT_LOCATION:CONTEXT_CREATURE]
     [I_EFFECT:ADD_SYNDROME]
         [SYNDROME:dummy_emission_9x]
             [CE_NAUSEA:SEV:5:PROB:25:START:1:END:50]
@@ -39,109 +38,77 @@
 [INTERACTION:SPELLCRAFTS_MATERIAL_EMISSION_3X]
     [I_SOURCE:CREATURE_ACTION]
     [I_TARGET:A:CREATURE]
+        [IT_LOCATION:CONTEXT_CREATURE]
     [I_EFFECT:ADD_SYNDROME]
         [SYNDROME:dummy_emission_3x]
             [CE_DIZZINESS:SEV:5:PROB:25:START:1:END:50]
 
-
-[OBJECT:INTERACTION]
-
-###############################################
-# 👑 Transform Vampire King – Battle Form
-###############################################
 [INTERACTION:TRANSFORM_TO_BAT_FORM_KING]
- [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:C:SELF_ONLY]
- [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
- [I_EFFECT:BODY_TRANSFORMATION]
-  [IE_IMMEDIATE]
-  [CE_BODY_TRANSFORMATION:START:0]
-   [CE:CREATURE:CARUCCI_VAMPIRE_KING:TRANSFORMED]
+    [I_SOURCE:CREATURE_ACTION]
+    [I_TARGET:C:SELF_ONLY]
+        [IT_LOCATION:CONTEXT_CREATURE]
+        [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+    [I_EFFECT:BODY_TRANSFORMATION]
+        [IE_IMMEDIATE]
+        [CE_BODY_TRANSFORMATION:START:0]
+            [CE:CREATURE:CARUCCI_VAMPIRE_KING:TRANSFORMED]
+    [CDI:ADV_NAME:Transform into Winged King]
+    [CDI:USAGE_HINT:ATTACK]
+    [CDI:TARGET:C:SELF_ONLY]
+    [CDI:VERB:transform into a winged vampire:transforms into a winged vampire]
+    [CDI:WAIT_PERIOD:100]
 
- [CDI:ADV_NAME:Transform into Winged King]
- [CDI:USAGE_HINT:ATTACK]
- [CDI:TARGET:C:SELF_ONLY]
- [CDI:VERB:transform into a winged vampire:transforms into a winged vampire]
- [CDI:WAIT_PERIOD:100]
-
-###############################################
-# 👑 REVERT Vampire King – Battle Form
-###############################################
 [INTERACTION:REVERT_FROM_BAT_FORM_KING]
- [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:C:SELF_ONLY]
- [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
- [I_EFFECT:BODY_TRANSFORMATION]
-  [IE_IMMEDIATE]
-  [CE_BODY_TRANSFORMATION:START:0]
-   [CE:CREATURE:CARUCCI_VAMPIRE_KING:BASE]
+    [I_SOURCE:CREATURE_ACTION]
+    [I_TARGET:C:SELF_ONLY]
+        [IT_LOCATION:CONTEXT_CREATURE]
+        [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+    [I_EFFECT:BODY_TRANSFORMATION]
+        [IE_IMMEDIATE]
+        [CE_BODY_TRANSFORMATION:START:0]
+            [CE:CREATURE:CARUCCI_VAMPIRE_KING:BASE]
+    [CDI:ADV_NAME:Revert to Regal Form]
+    [CDI:USAGE_HINT:ATTACK]
+    [CDI:TARGET:C:SELF_ONLY]
+    [CDI:VERB:revert to regal form:reverts to regal form]
+    [CDI:WAIT_PERIOD:100]
 
- [CDI:ADV_NAME:Revert to Regal Form]
- [CDI:USAGE_HINT:ATTACK]
- [CDI:TARGET:C:SELF_ONLY]
- [CDI:VERB:revert to regal form:reverts to regal form]
- [CDI:WAIT_PERIOD:100]
-
-###############################################
-# 👑 Transform Vampire Queen – Battle Form
-###############################################
 [INTERACTION:TRANSFORM_TO_BAT_FORM_QUEEN]
- [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:C:SELF_ONLY]
- [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
- [I_EFFECT:BODY_TRANSFORMATION]
-  [IE_IMMEDIATE]
-  [CE_BODY_TRANSFORMATION:START:0]
-   [CE:CREATURE:CARUCCI_VAMPIRE_QUEEN:TRANSFORMED]
-
- [CDI:ADV_NAME:Transform into Winged Queen]
- [CDI:USAGE_HINT:ATTACK]
- [CDI:TARGET:C:SELF_ONLY]
- [CDI:VERB:transform into a winged vampire matron:transforms into a winged vampire matron]
- [CDI:WAIT_PERIOD:100]
-
-
- ###############################################
-# 👑 REVERT Vampire Queen – Battle Form
-###############################################
+    [I_SOURCE:CREATURE_ACTION]
+    [I_TARGET:C:SELF_ONLY]
+        [IT_LOCATION:CONTEXT_CREATURE]
+        [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+    [I_EFFECT:BODY_TRANSFORMATION]
+        [IE_IMMEDIATE]
+        [CE_BODY_TRANSFORMATION:START:0]
+            [CE:CREATURE:CARUCCI_VAMPIRE_QUEEN:TRANSFORMED]
+    [CDI:ADV_NAME:Transform into Winged Queen]
+    [CDI:USAGE_HINT:ATTACK]
+    [CDI:TARGET:C:SELF_ONLY]
+    [CDI:VERB:transform into a winged vampire matron:transforms into a winged vampire matron]
+    [CDI:WAIT_PERIOD:100]
 
 [INTERACTION:REVERT_FROM_BAT_FORM_QUEEN]
- [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:C:SELF_ONLY]
- [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
- [I_EFFECT:BODY_TRANSFORMATION]
-  [IE_IMMEDIATE]
-  [CE_BODY_TRANSFORMATION:START:0]
-   [CE:CREATURE:CARUCCI_VAMPIRE_QUEEN:BASE]
+    [I_SOURCE:CREATURE_ACTION]
+    [I_TARGET:C:SELF_ONLY]
+        [IT_LOCATION:CONTEXT_CREATURE]
+        [IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+    [I_EFFECT:BODY_TRANSFORMATION]
+        [IE_IMMEDIATE]
+        [CE_BODY_TRANSFORMATION:START:0]
+            [CE:CREATURE:CARUCCI_VAMPIRE_QUEEN:BASE]
+    [CDI:ADV_NAME:Revert to Queenly Form]
+    [CDI:USAGE_HINT:ATTACK]
+    [CDI:TARGET:C:SELF_ONLY]
+    [CDI:VERB:revert to queenly form:reverts to queenly form]
+    [CDI:WAIT_PERIOD:100]
 
- [CDI:ADV_NAME:Revert to Queenly Form]
- [CDI:USAGE_HINT:ATTACK]
- [CDI:TARGET:C:SELF_ONLY]
- [CDI:VERB:revert to queenly form:reverts to queenly form]
- [CDI:WAIT_PERIOD:100]
-
-
-
-###############################################
-# 🧛 Vampiric Conversion – Cultist to Lesser Vampire
-###############################################
 [INTERACTION:VAMPIRIC_CONVERSION]
- [I_SOURCE:CREATURE_ACTION]
- [I_TARGET:A:CREATURE]
-  [IT_LOCATION:CONTEXT_CREATURE]
-  [IT_MANUAL_INPUT:target]
- [I_EFFECT:CREATURE_TRANSFORMATION]
-  [IE_TARGET:A]
-  [CREATURE:CARUCCI_CULTIST]
-  [CASTE:LESSER_VAMPIRE]
-
-###############################################
-# (🔮 Placeholder for Future Magic or Rituals)
-###############################################
-; [INTERACTION:BLOODSTONE_CHANNELING]
-;  [I_SOURCE:CREATURE_ACTION]
-;  [I_TARGET:A:CREATURE]
-;   [IT_LOCATION:CONTEXT_CREATURE]
-;  [I_EFFECT:ADD_SYNDROME]
-;   [IE_TARGET:A]
-;   [SYNDROME:Boost Strength and Speed]
+    [I_SOURCE:CREATURE_ACTION]
+    [I_TARGET:A:CREATURE]
+        [IT_LOCATION:CONTEXT_CREATURE]
+        [IT_MANUAL_INPUT:target]
+    [I_EFFECT:CREATURE_TRANSFORMATION]
+        [IE_TARGET:A]
+        [CREATURE:CARUCCI_CULTIST]
+        [CASTE:LESSER_VAMPIRE]
