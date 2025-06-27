@@ -113,8 +113,17 @@
   [CAN_LEARN][CAN_SPEAK][EQUIPS]
   ...
 
+ [CASTE:Carucci_Lesser_Vampire_male]
+  [NAME:lesser vampire:lesser vampires:lesser vampire]
+  [DESCRIPTION:A newly turned, unstable vampire acolyte with faint powers.]
+  [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
+  [CAN_LEARN][CAN_SPEAK][EQUIPS]
+  [NO_DRINK][NO_EAT][NO_SLEEP]
+  [TRANCES]
+  [NATURAL_SKILL:BITE:5]
+  [PHYS_ATT_RANGE:STRENGTH:800:950:1000:1050:1100:1200:1300]
 
- [CASTE:LESSER_VAMPIRE]
+  [CASTE:Carucci_Lesser_Vampire_female]
   [NAME:lesser vampire:lesser vampires:lesser vampire]
   [DESCRIPTION:A newly turned, unstable vampire acolyte with faint powers.]
   [BODY:HUMANOID_NECK:2EYES:FANGS:MOUTH]
