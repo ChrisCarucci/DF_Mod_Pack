@@ -1,0 +1,23 @@
+tile_page_creatures_ratfolk_updated
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:RATFOLK_BODY]
+	[FILE:images/ratfolk/ratfolk_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:160:64]
+
+[TILE_PAGE:RATFOLK_WEARABLES]
+	[FILE:images/ratfolk/ratfolk_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:704]
+
+[TILE_PAGE:RATFOLK_WIELDABLES]
+	[FILE:images/ratfolk/ratfolk_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:1024]
+
+[TILE_PAGE:STATUES_RATFOLK]
+	[FILE:images/ratfolk/creatures_ratfolk_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:64]

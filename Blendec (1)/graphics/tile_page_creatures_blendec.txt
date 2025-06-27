@@ -1,0 +1,29 @@
+tile_page_creatures_blendec
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:BLENDEC_BODY]
+	[FILE:images/blendec/blendec_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:256]
+
+[TILE_PAGE:BLENDEC_HAIR]
+	[FILE:images/blendec/blendec_hair.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:512]
+
+[TILE_PAGE:BLENDEC_WEARABLES]
+	[FILE:images/blendec/blendec_wearables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:864]
+
+[TILE_PAGE:STATUES_BLENDECMOD]
+	[FILE:images/creatures_blendecmod_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:128]
+
+[TILE_PAGE:CREATURES_BLENDEC_PETS]
+	[FILE:images/creatures_blendec_pets.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:32]
+

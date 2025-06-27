@@ -1,0 +1,7 @@
+graphics_creature_ratfolk_statues
+
+[OBJECT:GRAPHICS]
+
+[STATUE_CREATURE_GRAPHICS:RATFOLK]
+        [DEFAULT:STATUES_RATFOLK:0:0:0:1]
+

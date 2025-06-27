@@ -1,0 +1,17 @@
+[ID:sm_ratfolk_portraits]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:mcnuggy]
+[NAME:Additional Races. Ratfolk Graphical Update]
+[DESCRIPTION:Adds portraits to SEEU's Ratfolk Civ, in addition to updating their sprites to use the new palette system.]
+[STEAM_TITLE:Additional Races. Ratfolk Graphical Update]
+
+[STEAM_TAG:mod]
+[STEAM_TAG:race]
+[STEAM_TAG:creature]
+[STEAM_TAG:entity]
+[REQUIRES_ID_AFTER_ME:sm_cv_ratfolk]
+
+[STEAM_FILE_ID:3477270494]

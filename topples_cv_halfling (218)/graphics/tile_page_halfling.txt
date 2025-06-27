@@ -1,0 +1,23 @@
+tile_page_halfling
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:HALFLING_BODY]
+	[FILE:images/halfling_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:224]
+
+[TILE_PAGE:HALFLING_HAIR]
+	[FILE:images/halfling_hair.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:608]
+
+[TILE_PAGE:HALFLING_WEARABLES]
+	[FILE:images/halfling_wearables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:864]
+
+[TILE_PAGE:HALFLING_WIELDABLES]
+	[FILE:images/halfling_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:864]

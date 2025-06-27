@@ -1,0 +1,28 @@
+tile_page_BOARTH
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:BOARTH_BODY]
+	[FILE:images/human/human_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:224]
+
+[TILE_PAGE:BOARTH_HAIR]
+	[FILE:images/human/human_hair.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:608]
+
+[TILE_PAGE:BOARTH_WEARABLES]
+	[FILE:images/human/human_wearables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:864]
+
+[TILE_PAGE:BOARTH_CHILD]
+	[FILE:images/human_child.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:64]
+
+[TILE_PAGE:BOARTH_BABY]
+	[FILE:images/boarth_baby.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]

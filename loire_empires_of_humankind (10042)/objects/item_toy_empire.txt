@@ -1,0 +1,22 @@
+item_toy_empire
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:ITEM_TOY_SCIMITAR]
+[NAME:toy scimitar:toy scimitars]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_KNIGHT]
+[NAME:toy knight:toy knights]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_DOLL]
+[NAME:doll:dolls]
+
+[ITEM_TOY:ITEM_TOY_NUTCRACKER]
+[NAME:toy nutcracker:toy nutcrackers]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_CAMEL]
+[NAME:ornamental toy camel:ornamental toy camels]
+[HARD_MAT]

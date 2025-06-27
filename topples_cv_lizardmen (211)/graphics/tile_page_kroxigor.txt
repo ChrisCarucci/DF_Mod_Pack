@@ -1,0 +1,43 @@
+tile_page_kroxigor
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:KROXIGOR_BODY]
+	[FILE:images/kroxigor_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1920:3136]
+
+[TILE_PAGE:KROXIGOR_ARMOR]
+	[FILE:images/kroxigor_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1056:1568]
+
+[TILE_PAGE:KROXIGOR_BODY_SPECIAL]
+	[FILE:images/kroxigor_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1920:3136]
+
+[TILE_PAGE:KROXIGOR_CLOTHES]
+	[FILE:images/kroxigor_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1728:1440]
+
+[TILE_PAGE:KROXIGOR_WIELDABLES_R]
+	[FILE:images/kroxigor_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:KROXIGOR_WIELDABLES_M]
+	[FILE:images/kroxigor_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:KROXIGOR_WIELDABLES_L]
+	[FILE:images/kroxigor_wieldables_l.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+	
+[TILE_PAGE:KROXIGOR_CORPSE]
+	[FILE:images/kroxigor_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]

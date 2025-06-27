@@ -1,0 +1,43 @@
+tile_page_skink
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:SKINK_BODY]
+	[FILE:images/skink_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:640:3136]
+
+[TILE_PAGE:SKINK_ARMOR]
+	[FILE:images/skink_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:352:1568]
+
+[TILE_PAGE:SKINK_BODY_SPECIAL]
+	[FILE:images/skink_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:640:3136]
+
+[TILE_PAGE:SKINK_CLOTHES]
+	[FILE:images/skink_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1440]
+
+[TILE_PAGE:SKINK_WIELDABLES_R]
+	[FILE:images/skink_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:SKINK_WIELDABLES_L]
+	[FILE:images/skink_wieldables_l.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:SKINK_WIELDABLES_M]
+	[FILE:images/skink_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+	
+[TILE_PAGE:SKINK_CORPSE]
+	[FILE:images/skink_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]

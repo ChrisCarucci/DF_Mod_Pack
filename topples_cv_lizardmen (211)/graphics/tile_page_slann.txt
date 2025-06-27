@@ -1,0 +1,43 @@
+tile_page_slann
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:SLANN_BODY]
+	[FILE:images/slann_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1920:3136]
+
+[TILE_PAGE:SLANN_ARMOR]
+	[FILE:images/slann_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1056:1568]
+
+[TILE_PAGE:SLANN_BODY_SPECIAL]
+	[FILE:images/slann_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1920:3136]
+
+[TILE_PAGE:SLANN_CLOTHES]
+	[FILE:images/slann_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1728:1440]
+
+[TILE_PAGE:SLANN_WIELDABLES_R]
+	[FILE:images/slann_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:SLANN_WIELDABLES_M]
+	[FILE:images/slann_wieldables_m.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:SLANN_WIELDABLES_L]
+	[FILE:images/slann_wieldables_l.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+	
+[TILE_PAGE:SLANN_CORPSE]
+	[FILE:images/slann_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]

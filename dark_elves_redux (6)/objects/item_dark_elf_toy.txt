@@ -1,0 +1,16 @@
+item_dark_elf_toy
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:ITEM_TOY_SPIDER]
+[NAME:toy spider:toy spiders]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_MUSICBOX]
+[NAME:musicbox:musicboxes]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_SCIMITAR]
+[NAME:toy scimitar:toy scimitars]
+[HARD_MAT]
+

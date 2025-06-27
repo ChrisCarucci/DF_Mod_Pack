@@ -1,0 +1,19 @@
+[ID:topples_re_smoking]
+[NUMERIC_VERSION:187]
+[DISPLAYED_VERSION:1.0.10]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:186]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0.9]
+[AUTHOR:Topples]
+[NAME:Topples' Smoking]
+[DESCRIPTION:Adds smoking of various types to the game.]
+
+[STEAM_TITLE:Topples' Smoking]
+[STEAM_TAG:mod]
+[STEAM_TAG:reaction]
+[STEAM_TAG:building]
+[STEAM_TAG:item]
+
+[STEAM_FILE_ID:3479452579]
+
+[STEAM_CHANGELOG:Fixed halfling smoking graphics.]
+[STEAM_CHANGELOG:Fixed issue with smoking trigger checking items of the wrong subtype.]

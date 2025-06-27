@@ -1,0 +1,17 @@
+[ID:mythicalbeast_centaur_entity]
+[NUMERIC_VERSION:101]
+[DISPLAYED_VERSION:1.1]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:101]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.1]
+[AUTHOR:mcnuggy]
+[NAME:Mythical Beasts Centaur Civilization]
+[DESCRIPTION:Turns the Centaurs from my Mythical Beasts mod into a playable civilization. They're based on humans but with noble positions, a specialty in polearms like pikes and spears, and music and dance.]
+[REQUIRES_ID_BEFORE_ME:mcnuggys mythical beast]
+
+
+[STEAM_TAG:mod]
+[STEAM_TAG:creatures]
+[STEAM_TAG:entity]
+[STEAM_FILE_ID:3462591962]
+
+[STEAM_CHANGELOG:Made their settlement biomes only include grasslands and shrublands, to make them dominate civ spawns less. Changed their perferred tissue length for beards to make them have them less.]

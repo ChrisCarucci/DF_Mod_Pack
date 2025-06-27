@@ -1,0 +1,119 @@
+tile_page_misc
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:PLANT_PIPE-WEED]
+	[FILE:images/pipe-weed_graphics.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:32]
+
+[TILE_PAGE:CHEWING_PIPE-WEED]
+	[FILE:images/chewing_pipe-weed.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]
+
+[TILE_PAGE:PLANT_OPIUM_POPPY]
+	[FILE:images/graphics_opium_poppy.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:32]
+
+[TILE_PAGE:PLANT_HEMLOCK_MOD]
+	[FILE:images/graphics_hemlock.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:32]
+
+[TILE_PAGE:ITEMS_SMOKING]
+	[FILE:images/items_smoking.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:32]
+
+[TILE_PAGE:PORTRAIT_SMOKING_PIPE]
+	[FILE:images/smoking_portraits_pipe.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_SMOKING_CHILLUM]
+	[FILE:images/smoking_portraits_chillum.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_SMOKING_CIGAR]
+	[FILE:images/smoking_portraits_cigar.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_SMOKING_BLUNT]
+	[FILE:images/smoking_portraits_blunt.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_SMOKING_ARMS]
+	[FILE:images/smoking_portraits_armwear.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_SMOKING_GLOVES]
+	[FILE:images/smoking_portraits_gloves.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_SMOKING_ARMS_PIPE]
+	[FILE:images/smoking_portraits_gloves_pipe.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_PIPE]
+	[FILE:images/halfling_pipe.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CIGAR]
+	[FILE:images/halfling_cigar.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_BLUNT]
+	[FILE:images/halfling_blunt.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CHILLUM]
+	[FILE:images/halfling_chillum.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:SMOKING_HEMP_FLOWER]
+	[FILE:images/hemp_flower.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:32]
+
+[TILE_PAGE:SMOKING_MARIJUANA]
+	[FILE:images/marijuana_graphics.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:32]
+
+[TILE_PAGE:SMOKING_SHISHA]
+	[FILE:images/smoking_shishas.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:3840:32]
+
+[TILE_PAGE:WORKSHOP_HOOKAH]
+	[FILE:images/building_hookah.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:64]
+
+[TILE_PAGE:WORKSHOP_MED_BENCH]
+	[FILE:images/building_med_bench.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:64]
+
+[TILE_PAGE:BUILDING_ICONS_HOOKAH]
+	[FILE:images/building_icons_hookah.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]
+
+[TILE_PAGE:BUILDING_ICONS_MED_BENCH]
+	[FILE:images/icons_med_bench_workshop.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]
+

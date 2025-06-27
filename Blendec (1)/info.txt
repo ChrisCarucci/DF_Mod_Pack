@@ -1,0 +1,20 @@
+[ID:Blendec]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Bralbaard]
+[NAME:Blendec]
+[DESCRIPTION:This mod introduces a (playable) race of goat people known as blendecs]
+
+[STEAM_TITLE:New Playable Race, Blendecs]
+[STEAM_DESCRIPTION:This mod introduces a (playable) race of goat people known as blendecs]
+[STEAM_TAG:race] 
+[STEAM_TAG:creature] 
+[STEAM_TAG:entity] 
+[STEAM_TAG:workshop] 
+
+[STEAM_CHANGELOG:first upload]
+
+
+[STEAM_FILE_ID:3488777919]

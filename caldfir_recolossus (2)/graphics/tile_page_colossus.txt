@@ -1,0 +1,14 @@
+tile_page_colossus
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:ITEMS_COLOSSUS]
+	[FILE:images/items_colossus.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:64]
+
+[TILE_PAGE:CREATURES_COLOSSUS]
+	[FILE:images/creature_colossus.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:448:192]
+  

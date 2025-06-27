@@ -1,0 +1,18 @@
+tile_page_creatures
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:LM_BEASTS]
+	[FILE:images/lizardmen_beasts.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1152:384]
+
+[TILE_PAGE:LM_BEASTS_ICONS]
+	[FILE:images/lizardman_beast_icon.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:64]
+
+[TILE_PAGE:LM_BEASTS_CORPSES]
+	[FILE:images/lizardman_beast_corpses.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:64]
