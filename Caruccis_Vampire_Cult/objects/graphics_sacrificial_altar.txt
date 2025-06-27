@@ -1,0 +1,2 @@
+[TILE_GRAPHICS:SACRIFICIAL_ALTAR]
+ [TILE:images/Carucci_Sacrificial_Altar.png:0:0:AS_IS:DEFAULT]

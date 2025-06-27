@@ -35,7 +35,7 @@
  [DOES_NOT_NEED_BREATH][NOBLEED][NOFEAR]
  [CASTE:BASE]
   [FEMALE]
-  [DESCRIPTION:A queen cursed with eternal night.]
+  [DESCRIPTION:A queen cursed with eternal night, following her love to Death.]
 
  [CASTE:TRANSFORMED]
   [FEMALE]
