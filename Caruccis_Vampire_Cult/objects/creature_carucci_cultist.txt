@@ -1,7 +1,6 @@
 [OBJECT:CREATURE]
 
 [CREATURE:CARUCCI_CULTIST]
-    [SELECT_CASTE:DEFAULT_MALE]
     [DESCRIPTION:A blood-bound cultist—mortal or monster, all serve darkness.]
     [CREATURE_TILE:'C'][COLOR:5:0:0]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
@@ -26,6 +25,7 @@
 
     [CASTE:LESSER_VAMPIRE]
         [CASTE_NAME:lesser vampire:lesser vampires:lesser vampire]
+        [MALE][FEMALE]
         [BLOODSUCKER]
         [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NO_AGING]
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
@@ -75,6 +75,7 @@
 
     [CASTE:WEREWOLF]
         [CASTE_NAME:werewolf:werewolves:werewolf]
+        [MALE][FEMALE]
         [LARGE_PREDATOR]
         [BUILDINGDESTROYER:2]
         [NO_AGING][NO_DRINK][NO_EAT][NO_SLEEP]
@@ -85,6 +86,7 @@
 
     [CASTE:GARGOYLE]
         [CASTE_NAME:gargoyle:gargoyles:gargoyle]
+        [MALE][FEMALE]
         [NOT_LIVING][NOBREATH][NO_DRINK][NO_EAT][NO_SLEEP]
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
         [LARGE_PREDATOR]
@@ -96,9 +98,11 @@
 
     [CASTE:LIVING_ARMOR]
         [CASTE_NAME:living armor:living armors:living armor]
+        [MALE][FEMALE]
         [NOT_LIVING][NOBREATH][NO_DRINK][NO_EAT][NO_SLEEP]
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
-        [BUILDINGDESTROYER:2][LARGE_PREDATOR]
+        [BUILDINGDESTROYER:2]
+        [LARGE_PREDATOR]
         [DESCRIPTION:An animated warplate of hatred and bloodstone.]
         [POP_RATIO:3]
         [INTELLIGENT][CAN_LEARN]
