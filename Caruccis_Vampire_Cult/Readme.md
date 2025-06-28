@@ -11,14 +11,18 @@ A **total conversion civilization mod** for *Dwarf Fortress*, plunging players i
 
 
 
-## 🧭 Adventure Mode Integration
+## 🧛‍♂️ Adventure Mode Integration
 
-While *Carucci’s Vampire Cult* is forged with Fortress Mode in mind, it also offers **rich potential for Adventure Mode** storytelling:
+While Carucci’s Vampire Cult is forged with Fortress Mode in mind, it now offers **rich and direct potential for Adventure Mode storytelling**:
 
-- **Start as a Vampire Cultist** – Choose from vampiric or mortal castes with unique physical traits and dialogue.
-- **Dynamic Social Roleplay** – Interact with Blood Sovereigns, Crimson Matrons, and other lore-bound nobles through immersive speech.
-- **Relic Discovery** – Unearth lost relics like the Blood Amulet, or perform rites at Sacrificial Altars (if discovered).
-- **Transform Mid-Adventure** – Under unique conditions, mortals may ascend to vampiric form through in-world rituals.
+- **Start as Royalty** – Players can now directly choose to play as the **Vampire King** or **Vampire Queen** from the character creation screen. Begin as a winged sovereign clad in armor, ruling from the first heartbeat.
+- **Caste Selection** – Choose from vampiric monarchs, lesser vampires, or mortal cultists—each with unique physical traits, speech patterns, and lore implications.
+- **Dynamic Social Roleplay** – Interact with Blood Sovereigns, Crimson Matrons, and caste-bound nobles through immersive, caste-specific dialogue.
+- **Relic Discovery & Rituals** – Unearth relics like the Blood Amulet, explore corrupted citadels, or conduct sacrifices at altars to influence the world’s power balance.
+- **Ascension Potential** – Mortal adventurers may still pursue transformation into undead royalty via in-world rites… if they survive the process.
+
+Whether you're soaring on obsidian wings or whispering secrets as a Night Courier, the cult offers an immersive experience filled with blood-soaked drama and power plays.
+
 
 > _Wander through corrupted citadels, duel werewolves under moonlit skies, or infiltrate rival empires as a crimson envoy of the night._
 
