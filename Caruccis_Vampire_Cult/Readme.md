@@ -2,22 +2,20 @@
 
 _"There are those who build with stone, and those who build with blood. We are the latter."_
 
-A **total civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
+A **total conversion civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
 
 ---
+
 ## 🧭 Adventure Mode Integration
 
 While *Carucci’s Vampire Cult* is forged with Fortress Mode in mind, it also offers **rich potential for Adventure Mode** storytelling:
 
-- **Start as a Vampire Cultist**: Choose from vampiric or mortal castes with unique physical attributes and dialogue.
-- **Dynamic Social Roleplay**: Interact with Blood Sovereigns, Crimson Matrons, and other lore-bound nobles through immersive speech patterns.
-- **Relic Discovery**: Seek out hidden relics like the Blood Amulet, or perform rites at Sacrificial Altars (if discovered).
-- **Transform Mid-Adventure**: Under special conditions, players may ascend from mortal to vampire via in-world ritual interaction through the Sacrificial Altar.
+- **Start as a Vampire Cultist** – Choose from vampiric or mortal castes with unique physical traits and dialogue.
+- **Dynamic Social Roleplay** – Interact with Blood Sovereigns, Crimson Matrons, and other lore-bound nobles through immersive speech.
+- **Relic Discovery** – Unearth lost relics like the Blood Amulet, or perform rites at Sacrificial Altars (if discovered).
+- **Transform Mid-Adventure** – Under unique conditions, mortals may ascend to vampiric form through in-world rituals.
 
 > _Wander through corrupted citadels, duel werewolves under moonlit skies, or infiltrate rival empires as a crimson envoy of the night._
-
-While some workshop functionality is limited outside Fortress Mode, the worldbuilding, lore, and castes create compelling narratives for those who seek their own destiny in the dark.
-
 
 ---
 
@@ -25,101 +23,100 @@ While some workshop functionality is limited outside Fortress Mode, the worldbui
 
 **Carucci’s Vampire Cult** introduces a sinister civilization led by immortal royalty, bolstered by living armor, cursed rituals, and a caste system steeped in forbidden blood magic.
 
-Turn *Fortress Mode* into a gothic empire simulator with:
+Transform *Fortress Mode* into a gothic empire simulator featuring:
 
-- 🧱 Role-based politics
-- 🧬 Blood-powered transformations
-- 🕷️ Vermin-consuming altars
-- 🗡️ Custom relics and castes
+- 🧱 Role-based politics  
+- 🧬 Blood-powered transformations  
+- 🕷️ Vermin-consuming altars  
+- 🗡️ Custom relics and castes  
 
 ---
 
 ## 🏰 Key Features
 
 ### 🧬 Modular Vampire Civilization
-- Spawns in evil biomes during world generation
-- Caste-rich society with layered hierarchy and lore
+
+- Spawns in evil biomes during world generation  
+- Caste-rich society with layered hierarchy and lore  
 
 ### 🦇 Unique Castes & Powers
-| Caste | Description |
-|-------|-------------|
-| `CULTIST_MALE` / `CULTIST_FEMALE` | Initiates and workers |
-| `LESSER_VAMPIRE` | Mid-tier caste with enhanced strength |
-| `VAMPIRE_KING` / `VAMPIRE_QUEEN` | Ascended monarchs with transformative potential |
-| `VAMPIRE_KING_TRANSFORMED` / `VAMPIRE_QUEEN_TRANSFORMED` | Final forms, unlocked through ritual |
-| `WEREWOLF`, `GARGOYLE`, `LIVING_ARMOR` | Rare castes with unique bodies, sprites, and abilities |
+
+| Caste Token                           | Description                                          |
+|--------------------------------------|------------------------------------------------------|
+| `DEFAULT_MALE` / `DEFAULT_FEMALE`    | Mortal initiates and workers                        |
+| `LESSER_VAMPIRE`                     | Mid-tier caste with enhanced strength and ritual use |
+| `VAMPIRE_KING` / `VAMPIRE_QUEEN`     | Ascended monarchs of blood                          |
+| `VAMPIRE_KING_TRANSFORMED` / `VAMPIRE_QUEEN_TRANSFORMED` | Final winged forms |
+| `WEREWOLF`, `GARGOYLE`, `LIVING_ARMOR` | Rare castes with unique appearances and powers     |
+
+---
 
 ## ⚖️ Custom Government & Roles
 
-A throne of bone requires more than a crown—it demands structure.
-
-The Vampire Cult’s government includes **an intricate caste-bound hierarchy**, drawing influence from vanilla Dwarf Fortress nobility while channeling dark ritual, bloodline privilege, and elected dominance. The table below outlines key positions:
+A throne of bone requires more than a crown—it demands structure.  
+The Vampire Cult’s government includes **an intricate caste-bound hierarchy**, drawing influence from vanilla Dwarf Fortress nobility while channeling dark ritual, bloodline privilege, and elected dominance.
 
 | Cult Role               | Function                                           | Vanilla Equivalent               |
 |-------------------------|----------------------------------------------------|----------------------------------|
 | **Blood Sovereign**     | Supreme elected ruler of the Cult                 | Monarch                          |
-| **Crimson Matron**      | Consort or co-ruler in charge of bloodline purity | Queen Consort / Baroness         |
+| **Crimson Matron**      | Consort overseeing bloodline purity               | Queen Consort / Baroness         |
 | **Blood Oracle**        | Ritual authority and spiritual overseer           | Philosopher / Prophet            |
-| **High Priest**         | Senior religious figure below Oracle              | High Priest / Religious Noble    |
+| **High Priest**         | Senior religious figure under Oracle              | High Priest / Religious Noble    |
 | **Blood Baron / Baroness** | Regional vassals and landholders              | Baron / Baroness                 |
-| **Crimson Adjudicator** | Arbiter of internal disputes and law enforcement  | Judge / Hammerer                 |
-| **Bloodblade**          | Royal executioner and elite enforcer              | Captain of the Guard / Hammerer  |
-| **Blood Warden**        | Oversees prisons and Sacrificial Altar            | Dungeon Master / Jailer          |
-| **Blood Envoy**         | Diplomatic agent and external infiltrator         | Diplomat                         |
-| **Night Courier**       | Messenger, spy, and shadowrunner                  | Messenger / Liaison              |
-| **Blood Captain / Champion** | Military command leads                        | Militia Commander / Captain      |
-| **Blood Acolyte**       | Priestly subordinate to the Oracle                | Priest / Shrine Keeper           |
-| **Blood Trader**        | Noble merchants of the cult                       | Guild Representative / Merchant  |
+| **Crimson Adjudicator** | Arbiter of internal disputes and justice          | Judge / Hammerer                 |
+| **Bloodblade**          | Elite enforcer and royal executioner              | Captain of the Guard / Hammerer  |
+| **Blood Warden**        | Overseer of dungeons and Sacrificial Altar        | Dungeon Master / Jailer          |
+| **Blood Envoy**         | Diplomatic agent and infiltrator                  | Diplomat                         |
+| **Night Courier**       | Messenger and stealth informant                   | Messenger / Liaison              |
+| **Blood Captain / Champion** | Military command figures                   | Militia Commander / Captain      |
+| **Blood Acolyte**       | Religious subordinates to the Oracle              | Priest / Shrine Keeper           |
+| **Blood Trader**        | Noble-class merchants and dealers                 | Guild Representative / Merchant  |
 
-> All roles include **caste-specific restrictions**, immersive dialogue, population gating where appropriate, and loyal bodyguards to protect power—or suppress rebellion.
-
+> All roles include caste restrictions, immersive speech, population gating, and bodyguards—loyal protectors or silent assassins.
 
 ---
 
 ## 🔮 Ritual Mechanics
 
-**Build the Sacrificial Altar** using god skulls and bloodstone fragments to unlock powerful transformations and relics:
+Construct the **Sacrificial Altar** from god skulls and bloodstone fragments to unlock transformative rituals and relics:
 
-- **Ascension Rites**: Elevate cultists into vampiric royalty
-- **Bloodstone Enhancements**: Forge relics to amplify physical stats
-- **Blood Amulet Crafting**: Grants speed, strength, and toughness boosts
+- **Ascension Rites** – Elevate mortals into vampiric royalty  
+- **Bloodstone Enhancements** – Forge relics to amplify physical stats  
+- **Blood Amulet Crafting** – Bestow combat boosts via wearable relics  
 
 ---
 
 ## 🧪 Relics & Reactions
 
-- **Blood Amulet**: Wearable artifact with combat bonuses
-- Ritual reactions defined in `reaction_bloodstone.txt`
-- Requires Sacrificial Altar workshop
+- **Blood Amulet** – Artifact crafted at the Sacrificial Altar, enhancing strength, speed, and toughness  
+- Ritual recipes defined in `reaction_bloodstone.txt`  
+- Requires `SACRIFICIAL_ALTAR` workshop built via `building_sacrificial_altar.txt`  
 
 ---
 
 ## 🗣️ Immersive Dialogue
 
-Caste-specific speech from:
-- Royal proclamations
-- Cryptic whispers
-- Feral growls
+Caste-specific speech designed to deepen immersion, including:
 
-All dialogues are deeply thematic, enriching immersion.
+- Royal proclamations  
+- Arcane whispers  
+- Bestial growls  
+
+Full dialogue trees can be found in `speech_carucci_cult.txt`.
 
 ---
 
 ## 🎨 Graphics
 
-- Clean integration with 64×64 PNG sprites (no tilepages)
-- Each caste visually distinct for streamlined tileset compatibility
+- Clean integration with **64×64 PNG sprites**  
+- No tilepage conflicts  
+- Distinct sprites for each caste  
 
 ---
 
 ## ✨ Credits
 
-**Mod & Concept**: Chris Carucci  
-**Usage**: Free to integrate into your own mods—just keep credit intact. 💖
+**Mod & Concept:** Chris Carucci  
+**Usage:** Open-source—feel free to integrate or modify, just retain credit. 💖
 
----
-
-
-
-
-_"Even those of the Shadows give credit to the Night."_
+> _“Even those of the Shadows give credit to the Night.”_
