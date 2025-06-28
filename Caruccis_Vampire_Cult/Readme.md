@@ -1,60 +1,99 @@
-=
+# 🧛‍♂️ Carucci’s Vampire Cult
 
-> “There are those who build with stone, and those who build with blood. We are the latter.”
-=🦇 Carucci’s Vampire Cult
-A total conversion civilization mod for Dwarf Fortress
+_"There are those who build with stone, and those who build with blood. We are the latter."_
 
-🩸 Overview
-Carucci’s Vampire Cult introduces a sinister, blood-bound civilization led by immortal royalty and steeped in forbidden rituals. From ascension rites and sacrificial altars to castes like gargoyles, living armor, and werewolves, this mod transforms Fortress Mode into a gothic empire simulator — complete with role-based politics, vermin-consuming altars, and powerful transformations tied to bloodstone relics.
+A **total conversion civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
 
-🧛‍♂️ Key Features
-Modular Vampire Civilization Spawned in evil biomes, the cult generates in worldgen and includes a deep caste hierarchy and lore-rich society.
+---
 
-Unique Castes with Powers
+## 🩸 Overview
 
-MORTAL_MALE and MORTAL_FEMALE: Common initiates and workers
+**Carucci’s Vampire Cult** introduces a sinister civilization led by immortal royalty, bolstered by living armor, cursed rituals, and a caste system steeped in forbidden blood magic.
 
-LESSER_VAMPIRE: Mid-tier caste with enhanced strength
+Turn *Fortress Mode* into a gothic empire simulator with:
 
-VAMPIRE_KING/QUEEN: Ascended monarchs, capable of transformation
+- 🧱 Role-based politics
+- 🧬 Blood-powered transformations
+- 🕷️ Vermin-consuming altars
+- 🗡️ Custom relics and castes
 
-WEREWOLF, GARGOYLE, LIVING_ARMOR: Rare castes with custom bodies, graphics, and abilities
+---
 
-VAMPIRE_KING_TRANSFORMED and VAMPIRE_QUEEN_TRANSFORMED: Final forms gained through ritual
+## 🏰 Key Features
 
-Custom Government & Roles 15+ fully playable positions with tailored duties, including:
+### 🧬 Modular Vampire Civilization
+- Spawns in evil biomes during world generation
+- Caste-rich society with layered hierarchy and lore
 
-Blood Sovereign, Crimson Matron, Blood Oracle, Bloodblade
+### 🦇 Unique Castes & Powers
+| Caste | Description |
+|-------|-------------|
+| `MORTAL_MALE` / `MORTAL_FEMALE` | Initiates and workers |
+| `LESSER_VAMPIRE` | Mid-tier caste with enhanced strength |
+| `VAMPIRE_KING` / `VAMPIRE_QUEEN` | Ascended monarchs with transformative potential |
+| `VAMPIRE_KING_TRANSFORMED` / `VAMPIRE_QUEEN_TRANSFORMED` | Final forms, unlocked through ritual |
+| `WEREWOLF`, `GARGOYLE`, `LIVING_ARMOR` | Rare castes with unique bodies, sprites, and abilities |
 
-Night Courier, Blood Envoy, Crimson Adjudicator, Blood Warden
+### ⚖️ Custom Government & Roles
+Over 15 caste-restricted, lore-rich positions, including:
 
-Role-specific bodyguards and caste restrictions
+- Blood Sovereign
+- Crimson Matron
+- Blood Oracle
+- Bloodblade
+- Night Courier
+- Blood Envoy
+- Crimson Adjudicator
+- Blood Warden
 
-Ritual Mechanics
+Each role features customized duties and dedicated bodyguards.
 
-Build the Sacrificial Altar
+---
 
-Use god skulls and bloodstone fragments to perform:
+## 🔮 Ritual Mechanics
 
-Ascension rituals (turns a cultist into a Vampire King or Queen based on gender)
+**Build the Sacrificial Altar** using god skulls and bloodstone fragments to unlock powerful transformations and relics:
 
-Bloodstone enhancements
+- **Ascension Rites**: Elevate cultists into vampiric royalty
+- **Bloodstone Enhancements**: Forge relics to amplify physical stats
+- **Blood Amulet Crafting**: Grants speed, strength, and toughness boosts
 
-Blood Amulet crafting
+---
 
-Relics & Reactions
+## 🧪 Relics & Reactions
 
-Blood Amulet: A wearable item that boosts speed, strength, and toughness
+- **Blood Amulet**: Wearable artifact with combat bonuses
+- Ritual reactions defined in `reaction_bloodstone.txt`
+- Requires Alchemy workshop
 
-reaction_bloodstone.txt enables rituals and relic creation via Alchemy
+---
 
-Custom Speech Immersive, caste-specific dialogue — including cryptic whispers, royal proclamations, and feral growls.
+## 🗣️ Immersive Dialogue
 
-Graphics Distinct 64×64 sprites for each caste. No tilepages; uses discreet PNGs for clean integration with tilesets.
+Caste-specific speech from:
+- Royal proclamations
+- Cryptic whispers
+- Feral growls
 
-✨ Credits
-Mod & Concept: Chris Carucci
+All dialogues are deeply thematic, enriching immersion.
 
-All Rights Reserved.
+---
 
-You may incorporate this mod into yours, if you retain my credit. <3
+## 🎨 Graphics
+
+- Clean integration with 64×64 PNG sprites (no tilepages)
+- Each caste visually distinct for streamlined tileset compatibility
+
+---
+
+## ✨ Credits
+
+**Mod & Concept**: Chris Carucci  
+**Usage**: Free to integrate into your own mods—just keep credit intact. 💖
+
+---
+
+
+
+
+_"Even the those of the Shadows give credit to the Night."_
