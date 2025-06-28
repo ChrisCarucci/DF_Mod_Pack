@@ -15,14 +15,14 @@
         [MALE]
         [DESCRIPTION:A mortal male follower of the blood cult.]
         [POP_RATIO:70]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:DEFAULT_FEMALE]
         [CASTE_NAME:cultist:cultists:cultist]
         [FEMALE]
         [DESCRIPTION:A mortal female follower of the blood cult.]
         [POP_RATIO:70]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:LESSER_VAMPIRE]
         [CASTE_NAME:lesser vampire:lesser vampires:lesser vampire]
@@ -31,7 +31,7 @@
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
         [DESCRIPTION:A cultist reborn into eternal hunger.]
         [POP_RATIO:10]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:VAMPIRE_KING]
         [CASTE_NAME:vampire king:vampire kings:vampire king]
@@ -41,7 +41,7 @@
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
         [DESCRIPTION:The sovereign patriarch of blood.]
         [POP_RATIO:1]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:VAMPIRE_QUEEN]
         [CASTE_NAME:vampire queen:vampire queens:vampire queen]
@@ -51,7 +51,7 @@
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
         [DESCRIPTION:The matron and high priestess of blood.]
         [POP_RATIO:1]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:VAMPIRE_KING_TRANSFORMED]
         [CASTE_NAME:winged vampire king:winged vampire kings:winged vampire king]
@@ -61,7 +61,7 @@
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
         [DESCRIPTION:A king of blood, taken wing.]
         [POP_RATIO:0]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:VAMPIRE_QUEEN_TRANSFORMED]
         [CASTE_NAME:winged vampire queen:winged vampire queens:winged vampire queen]
@@ -71,7 +71,7 @@
         [NOPAIN][NOEMOTION][NOSTUN][NOTHOUGHT][NOBLEED]
         [DESCRIPTION:A queen of blood, winged in wrath.]
         [POP_RATIO:0]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:WEREWOLF]
         [CASTE_NAME:werewolf:werewolves:werewolf]
@@ -81,7 +81,7 @@
         [NIGHT_CREATURE_HUNTER]
         [DESCRIPTION:A loyal, savage beast of the cult.]
         [POP_RATIO:2]
-        [INTELLIGENT][CAN_LEARN]
+        [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
 
     [CASTE:GARGOYLE]
         [CASTE_NAME:gargoyle:gargoyles:gargoyle]
