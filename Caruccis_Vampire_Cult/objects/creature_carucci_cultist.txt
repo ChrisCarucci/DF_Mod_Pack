@@ -35,6 +35,7 @@
 
     [CASTE:VAMPIRE_KING]
         [CASTE_NAME:vampire king:vampire kings:vampire king]
+        [ADVENTURE_TIER:3]
         [MALE]
         [BLOODSUCKER]
         [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NO_AGING]
@@ -45,6 +46,7 @@
 
     [CASTE:VAMPIRE_QUEEN]
         [CASTE_NAME:vampire queen:vampire queens:vampire queen]
+        [ADVENTURE_TIER:3]
         [FEMALE]
         [BLOODSUCKER]
         [NOT_LIVING][NO_DRINK][NO_EAT][NO_SLEEP][NO_AGING]
