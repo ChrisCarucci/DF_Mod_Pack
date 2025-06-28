@@ -1,0 +1,5 @@
+[OBJECT:GRAPHICS]
+
+[CREATURE_GRAPHICS:CARUCCI_FERAL_VAMPIRE]
+    [CASTE:FERAL_VAMPIRE]
+        [DEFAULT:graphics/images/Carucci_Lesser_Vampire_male.png:0:0:AS_IS:DEFAULT]

@@ -63,20 +63,20 @@
         [COMBAT:You are but a whisper in my storm.]
         [COMBAT:I do not strike—I eclipse.]
 
-    [WEREWOLF]
+    [CULTIST_WEREWOLF]
         [GREETING:Snarl. Growl. (It seems to acknowledge you.)]
         [GREETING:Ears twitch. Hunger flares.]
         [COMBAT:RAAAAGH!]
         [COMBAT:Blood! Blood! BLOOD!]
         [COMBAT:FEAST!!]
 
-    [GARGOYLE]
+    [CULTIST_GARGOYLE]
         [GREETING:... (It does not speak, but watches.)]
         [GREETING:Its eyes do not blink. It does not breathe.]
         [COMBAT:Stone cracks. So will you.]
         [COMBAT:Impact registered. Crumple imminent.]
 
-    [LIVING_ARMOR]
+    [CULTIST_ARMOR]
         [GREETING:Clang. Echo. Silence.]
         [GREETING:Awaiting directive.]
         [COMBAT:Directive: eliminate.]

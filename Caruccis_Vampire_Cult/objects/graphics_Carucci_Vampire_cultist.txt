@@ -15,9 +15,4 @@
         [DEFAULT:graphics/images/Carucci_Vampire_Queen_Female.png:0:0:AS_IS:DEFAULT]
     [CASTE:VAMPIRE_QUEEN_TRANSFORMED]
         [DEFAULT:graphics/images/Carucci_Vampire_Queen_Transformed.png:0:0:AS_IS:DEFAULT]
-    [CASTE:WEREWOLF]
-        [DEFAULT:graphics/images/Carucci_Werewolf.png:0:0:AS_IS:DEFAULT]
-    [CASTE:GARGOYLE]
-        [DEFAULT:graphics/images/Carucci_Gargoyle.png:0:0:AS_IS:DEFAULT]
-    [CASTE:LIVING_ARMOR]
-        [DEFAULT:graphics/images/Carucci_LivingArmor.png:0:0:AS_IS:DEFAULT]
+
