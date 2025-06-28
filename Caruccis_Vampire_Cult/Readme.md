@@ -2,7 +2,7 @@
 
 _"There are those who build with stone, and those who build with blood. We are the latter."_
 
-A **total conversion civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
+A **total civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
 
 ---
 
