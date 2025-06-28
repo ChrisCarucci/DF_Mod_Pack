@@ -38,16 +38,16 @@ Turn *Fortress Mode* into a gothic empire simulator with:
 
 A throne of bone requires more than a crown—it demands structure. The Vampire Cult’s hierarchy includes **over 15 caste-restricted, lore-steeped roles**, each imbued with purpose and tradition:
 
-| Role                   | Function                                       |
-|------------------------|------------------------------------------------|
-| **Blood Sovereign**    | Supreme ruler of the Cult                     |
-| **Crimson Matron**     | Overseer of bloodline purity                  |
-| **Blood Oracle**       | Seer of fate and ritual                       |
-| **Bloodblade**         | Elite enforcer of the Sovereign’s will       |
-| **Night Courier**      | Stealth emissary and informant               |
-| **Blood Envoy**        | Diplomat and infiltrator                     |
-| **Crimson Adjudicator**| Arbiter of internal disputes                 |
-| **Blood Warden**       | Keeper of dungeons and the Sacrificial Altar |
+| Cult Role               | Function                                       | Vanilla Equivalent               |
+|-------------------------|------------------------------------------------|----------------------------------|
+| **Blood Sovereign**     | Supreme ruler of the Cult                      | Monarch                          |
+| **Crimson Matron**      | Overseer of bloodline purity                   | Queen Consort / Baroness         |
+| **Blood Oracle**        | Seer of fate and ritual                        | Philosopher / Prophet            |
+| **Bloodblade**          | Elite enforcer of the Sovereign’s will         | Hammerer / Captain of the Guard  |
+| **Night Courier**       | Stealth emissary and informant                 | Messenger / Outpost Liaison      |
+| **Blood Envoy**         | Diplomat and infiltrator                       | Diplomat                         |
+| **Crimson Adjudicator** | Arbiter of internal disputes                   | Judge                            |
+| **Blood Warden**        | Keeper of dungeons and the Sacrificial Altar   | Dungeon Master / Jailer          |
 
 > Each position features caste restrictions, unique responsibilities, and loyal bodyguards to guard their status.
 
