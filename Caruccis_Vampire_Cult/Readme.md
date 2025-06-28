@@ -28,7 +28,7 @@ Turn *Fortress Mode* into a gothic empire simulator with:
 ### 🦇 Unique Castes & Powers
 | Caste | Description |
 |-------|-------------|
-| `MORTAL_MALE` / `MORTAL_FEMALE` | Initiates and workers |
+| `CULTIST_MALE` / `CULTIST_FEMALE` | Initiates and workers |
 | `LESSER_VAMPIRE` | Mid-tier caste with enhanced strength |
 | `VAMPIRE_KING` / `VAMPIRE_QUEEN` | Ascended monarchs with transformative potential |
 | `VAMPIRE_KING_TRANSFORMED` / `VAMPIRE_QUEEN_TRANSFORMED` | Final forms, unlocked through ritual |
