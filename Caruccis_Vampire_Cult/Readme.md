@@ -34,19 +34,22 @@ Turn *Fortress Mode* into a gothic empire simulator with:
 | `VAMPIRE_KING_TRANSFORMED` / `VAMPIRE_QUEEN_TRANSFORMED` | Final forms, unlocked through ritual |
 | `WEREWOLF`, `GARGOYLE`, `LIVING_ARMOR` | Rare castes with unique bodies, sprites, and abilities |
 
-### ⚖️ Custom Government & Roles
-Over 15 caste-restricted, lore-rich positions, including:
+## ⚖️ Custom Government & Roles
 
-- Blood Sovereign
-- Crimson Matron
-- Blood Oracle
-- Bloodblade
-- Night Courier
-- Blood Envoy
-- Crimson Adjudicator
-- Blood Warden
+A throne of bone requires more than a crown—it demands structure. The Vampire Cult’s hierarchy includes **over 15 caste-restricted, lore-steeped roles**, each imbued with purpose and tradition:
 
-Each role features customized duties and dedicated bodyguards.
+| Role                   | Function                                       |
+|------------------------|------------------------------------------------|
+| **Blood Sovereign**    | Supreme ruler of the Cult                     |
+| **Crimson Matron**     | Overseer of bloodline purity                  |
+| **Blood Oracle**       | Seer of fate and ritual                       |
+| **Bloodblade**         | Elite enforcer of the Sovereign’s will       |
+| **Night Courier**      | Stealth emissary and informant               |
+| **Blood Envoy**        | Diplomat and infiltrator                     |
+| **Crimson Adjudicator**| Arbiter of internal disputes                 |
+| **Blood Warden**       | Keeper of dungeons and the Sacrificial Altar |
+
+> Each position features caste restrictions, unique responsibilities, and loyal bodyguards to guard their status.
 
 ---
 
