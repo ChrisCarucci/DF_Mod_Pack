@@ -99,4 +99,4 @@ All dialogues are deeply thematic, enriching immersion.
 
 
 
-_"Even the those of the Shadows give credit to the Night."_
+_"Even those of the Shadows give credit to the Night."_
