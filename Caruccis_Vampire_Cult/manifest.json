@@ -1,0 +1,31 @@
+{
+  "id": "caruccis_vampire_cult",
+  "title": "Carucci's Vampire Cult",
+  "description": "A rich vampire civilization mod for Dwarf Fortress, featuring caste-specific roles, sacrificial altars, winged royalty, and blood-bound politics.",
+  "author": "Chris Carucci",
+  "version": "1.1.0",
+  "df_min_version": "1.0.0",
+  "tags": ["civilization", "vampire", "dark fantasy", "total conversion", "custom workshop", "lore-rich"],
+  "preview": "preview.png",
+  "url": "https://github.com/ChrisCarucci/DF_Mod_Pack",
+  "readme": "README.md",
+  "info": "info.txt",
+  "files": [
+    "caruccis_vampire_cult",
+    "info.txt",
+    "README.md",
+    "speech_carucci_cult.txt",
+    "entity_carucci_cult.txt",
+    "creature_carucci_cultist.txt",
+    "graphics_Carucci_Vampire_cultist.txt",
+    "graphics_sacrificial_altar.txt",
+    "graphics_bloodstone.txt",
+    "building_sacrificial_altar.txt",
+    "reaction_bloodstone.txt",
+    "inorganic_bloodstone_fragment.txt",
+    "inorganic_god_skull.txt",
+    "inorganic_blood_amulet.txt",
+    "item_tool.txt",
+    "interaction_Caruccis_Vampire_Cult.txt"
+  ]
+}
