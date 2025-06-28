@@ -51,20 +51,28 @@ Turn *Fortress Mode* into a gothic empire simulator with:
 
 ## ⚖️ Custom Government & Roles
 
-A throne of bone requires more than a crown—it demands structure. The Vampire Cult’s hierarchy includes **over 15 caste-restricted, lore-steeped roles**, each imbued with purpose and tradition:
+A throne of bone requires more than a crown—it demands structure.
 
-| Cult Role               | Function                                       | Vanilla Equivalent               |
-|-------------------------|------------------------------------------------|----------------------------------|
-| **Blood Sovereign**     | Supreme ruler of the Cult                      | Monarch                          |
-| **Crimson Matron**      | Overseer of bloodline purity                   | Queen Consort / Baroness         |
-| **Blood Oracle**        | Seer of fate and ritual                        | Philosopher / Prophet            |
-| **Bloodblade**          | Elite enforcer of the Sovereign’s will         | Hammerer / Captain of the Guard  |
-| **Night Courier**       | Stealth emissary and informant                 | Messenger / Outpost Liaison      |
-| **Blood Envoy**         | Diplomat and infiltrator                       | Diplomat                         |
-| **Crimson Adjudicator** | Arbiter of internal disputes                   | Judge                            |
-| **Blood Warden**        | Keeper of dungeons and the Sacrificial Altar   | Dungeon Master / Jailer          |
+The Vampire Cult’s government includes **an intricate caste-bound hierarchy**, drawing influence from vanilla Dwarf Fortress nobility while channeling dark ritual, bloodline privilege, and elected dominance. The table below outlines key positions:
 
-> Each position features caste restrictions, unique responsibilities, and loyal bodyguards to guard their status.
+| Cult Role               | Function                                           | Vanilla Equivalent               |
+|-------------------------|----------------------------------------------------|----------------------------------|
+| **Blood Sovereign**     | Supreme elected ruler of the Cult                 | Monarch                          |
+| **Crimson Matron**      | Consort or co-ruler in charge of bloodline purity | Queen Consort / Baroness         |
+| **Blood Oracle**        | Ritual authority and spiritual overseer           | Philosopher / Prophet            |
+| **High Priest**         | Senior religious figure below Oracle              | High Priest / Religious Noble    |
+| **Blood Baron / Baroness** | Regional vassals and landholders              | Baron / Baroness                 |
+| **Crimson Adjudicator** | Arbiter of internal disputes and law enforcement  | Judge / Hammerer                 |
+| **Bloodblade**          | Royal executioner and elite enforcer              | Captain of the Guard / Hammerer  |
+| **Blood Warden**        | Oversees prisons and Sacrificial Altar            | Dungeon Master / Jailer          |
+| **Blood Envoy**         | Diplomatic agent and external infiltrator         | Diplomat                         |
+| **Night Courier**       | Messenger, spy, and shadowrunner                  | Messenger / Liaison              |
+| **Blood Captain / Champion** | Military command leads                        | Militia Commander / Captain      |
+| **Blood Acolyte**       | Priestly subordinate to the Oracle                | Priest / Shrine Keeper           |
+| **Blood Trader**        | Noble merchants of the cult                       | Guild Representative / Merchant  |
+
+> All roles include **caste-specific restrictions**, immersive dialogue, population gating where appropriate, and loyal bodyguards to protect power—or suppress rebellion.
+
 
 ---
 
