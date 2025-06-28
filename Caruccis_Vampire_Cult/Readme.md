@@ -5,6 +5,21 @@ _"There are those who build with stone, and those who build with blood. We are t
 A **total civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
 
 ---
+## 🧭 Adventure Mode Integration
+
+While *Carucci’s Vampire Cult* is forged with Fortress Mode in mind, it also offers **rich potential for Adventure Mode** storytelling:
+
+- **Start as a Vampire Cultist**: Choose from vampiric or mortal castes with unique physical attributes and dialogue.
+- **Dynamic Social Roleplay**: Interact with Blood Sovereigns, Crimson Matrons, and other lore-bound nobles through immersive speech patterns.
+- **Relic Discovery**: Seek out hidden relics like the Blood Amulet, or perform rites at Sacrificial Altars (if discovered).
+- **Transform Mid-Adventure**: Under special conditions, players may ascend from mortal to vampire via in-world ritual interaction through the Sacrificial Altar.
+
+> _Wander through corrupted citadels, duel werewolves under moonlit skies, or infiltrate rival empires as a crimson envoy of the night._
+
+While some workshop functionality is limited outside Fortress Mode, the worldbuilding, lore, and castes create compelling narratives for those who seek their own destiny in the dark.
+
+
+---
 
 ## 🩸 Overview
 
