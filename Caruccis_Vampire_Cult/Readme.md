@@ -1,10 +1,14 @@
+---![BCO 2e8199ba-ba69-40b3-9418-84d9866488d7](https://github.com/user-attachments/assets/981abed4-7fb9-4b22-ad2a-86cc6ddb4438)
+
+
 # 🧛‍♂️ Carucci’s Vampire Cult
 
 _"There are those who build with stone, and those who build with blood. We are the latter."_
 
 A **total conversion civilization mod** for *Dwarf Fortress*, plunging players into the dark rituals and blood-soaked power plays of a vampiric empire.
 
----
+
+
 
 ## 🧭 Adventure Mode Integration
 
