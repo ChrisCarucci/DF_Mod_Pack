@@ -1,4 +1,4 @@
----![BCO 2e8199ba-ba69-40b3-9418-84d9866488d7](https://github.com/user-attachments/assets/981abed4-7fb9-4b22-ad2a-86cc6ddb4438)
+
 
 
 # 🧛‍♂️ Carucci’s Vampire Cult
