@@ -67,7 +67,7 @@ A throne of bone requires more than a crown—it demands structure. The Vampire 
 
 - **Blood Amulet**: Wearable artifact with combat bonuses
 - Ritual reactions defined in `reaction_bloodstone.txt`
-- Requires Alchemy workshop
+- Requires Sacrificial Altar workshop
 
 ---
 
