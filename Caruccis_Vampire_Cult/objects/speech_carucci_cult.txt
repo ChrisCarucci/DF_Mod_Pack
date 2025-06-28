@@ -68,11 +68,11 @@
         [GREETING:Ears twitch. Hunger flares.]
         [COMBAT:RAAAAGH!]
         [COMBAT:Blood! Blood! BLOOD!]
-        [COMBAT:Claw. Fang. Silence.]
+        [COMBAT:FEAST!!]
 
     [GARGOYLE]
         [GREETING:... (It does not speak, but watches.)]
-        [GREETING:Its eyes do not blink. Or breathe.]
+        [GREETING:Its eyes do not blink. It does not breathe.]
         [COMBAT:Stone cracks. So will you.]
         [COMBAT:Impact registered. Crumple imminent.]
 
@@ -112,7 +112,7 @@
         [GREETING:No one escapes. Not even memory.]
         [GREETING:I’ve memorized every scream.]
         [COMBAT:Back to your cage.]
-        [COMBAT:You’ll scream like the rest.]
+        [COMBAT:You’ll bleed like the rest.]
         [COMBAT:Your sentence requires blood.]
 
     [CRIMSON_ADJUDICATOR]
