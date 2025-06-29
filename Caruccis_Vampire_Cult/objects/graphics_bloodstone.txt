@@ -1,0 +1,4 @@
+[OBJECT:GRAPHICS]
+
+[INORGANIC_GRAPHICS:BLOODSTONE_FRAGMENT]
+ [DEFAULT:graphics/images/inorganic_bloodstone.png:0:0:AS_IS:DEFAULT]

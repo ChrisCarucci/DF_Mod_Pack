@@ -2,4 +2,4 @@
 
 [CREATURE_GRAPHICS:CARUCCI_LIVING_ARMOR]
     [CASTE:CULTIST_ARMOR]
-        [DEFAULT:images/Carucci_LivingArmor.png:0:0:AS_IS:DEFAULT]
+        [DEFAULT:graphics/images/Carucci_LivingArmor.png:0:0:AS_IS:DEFAULT]
