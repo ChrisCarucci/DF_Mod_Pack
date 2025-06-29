@@ -1,0 +1,9 @@
+text_kobold
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:SLAIN_KOBOLD]
+
+whose tricks were no match for my might
+who thought [PRO_OBJ] traps brought safety
+who pathetic groveling fell on deaf ears
