@@ -1,16 +1,1 @@
-[ID:loire_empires_of_humankind]
-[NUMERIC_VERSION:10042]
-[DISPLAYED_VERSION:1.0.42]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0.0]
-[AUTHOR:LOIRELAB]
-[NAME:Great Empires of (mostly) Humankind]
-[DESCRIPTION:Dive into a world of brutal northen and southeren empires, each aiming for ultimate dominion. Mostly human, but sometimes strange beings find their way into these domains.]
-
-[STEAM_TITLE:Great Empires of mostly Humankind]
-[STEAM_TAG:mod]
-[STEAM_TAG:race]
-[STEAM_TAG:creature]
-[STEAM_TAG:entity]
-[STEAM_CHANGELOG:fixing language files]
-[STEAM_FILE_ID:3404395461]
+[ID:loire_empires_of_humankind]\n[NUMERIC_VERSION:10042]\n[DISPLAYED_VERSION:1.0.42]\n[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]\n[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0.0]\n[AUTHOR:LOIRELAB]\n[NAME:Great Empires of (mostly) Humankind]\n[DESCRIPTION:Dive into a world of brutal northern and southern empires, each aiming for ultimate dominion. Mostly human, but sometimes strange beings find their way into these domains.]\n\n[STEAM_TITLE:Great Empires of mostly Humankind]\n[STEAM_TAG:mod]\n[STEAM_TAG:race]\n[STEAM_TAG:creature]\n[STEAM_TAG:entity]\n[STEAM_CHANGELOG:fixing language files]\n[STEAM_FILE_ID:3404395461]\n
