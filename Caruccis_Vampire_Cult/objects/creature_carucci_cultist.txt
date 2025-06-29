@@ -4,7 +4,7 @@
     [DESCRIPTION:A blood-bound cultist—mortal or monster, all serve darkness. They whisper prayers to crimson altars and dream of eternal night. Their loyalty runs deeper than blood, carved into bone and soul.]
     [CREATURE_TILE:'C'][COLOR:5:0:0]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
-    [BODY:HUMANOID:2EYES:2EARS:1NOSE:1MOUTH:2ARMS:2LEGS:2HANDS:2FEET:10FINGERS:10TOES]
+    [BODY:HUMANOID_SIMPLE]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_SIZE:0:0:60000]
     [APPEARS_IN_WORLD_GEN]

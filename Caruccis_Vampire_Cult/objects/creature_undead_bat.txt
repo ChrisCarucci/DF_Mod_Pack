@@ -3,7 +3,7 @@
 [CREATURE:CARUCCI_UNDEAD_BAT]
     [DESCRIPTION:A grotesque offspring of undeath and darkness. Born from the vampire queen's unholy egg, it serves as her aerial scout. Its wings beat with the rhythm of a heart that never lived.]
     [CREATURE_TILE:'B'][COLOR:0:0:0]
-    [BODY:QUADRUPED:2EYES:2EARS:1NOSE:1MOUTH:4LEGS:2WINGS:20TOES]
+    [BODY:QUADRUPED_NECK]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_SIZE:0:0:200000]
     [APPEARS_IN_WORLD_GEN]

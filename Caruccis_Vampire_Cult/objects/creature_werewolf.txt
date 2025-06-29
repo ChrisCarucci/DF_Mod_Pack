@@ -4,7 +4,7 @@
     [DESCRIPTION:A loyal, savage beast of the cult. The transformation has left it caught between man and monster forever. Its howl carries the anguish of a soul trapped in flesh.]
     [CREATURE_TILE:'W'][COLOR:6:0:0]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
-    [BODY:HUMANOID:2EYES:2EARS:1NOSE:1MOUTH:2ARMS:2LEGS:2HANDS:2FEET:10FINGERS:10TOES]
+    [BODY:HUMANOID_SIMPLE]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_SIZE:0:0:70000]
     [APPEARS_IN_WORLD_GEN]

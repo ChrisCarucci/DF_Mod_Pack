@@ -6,7 +6,7 @@
   "version": "1.1.0",
   "df_min_version": "1.0.0",
   "tags": ["civilization", "vampire", "dark fantasy", "total conversion", "custom workshop", "lore-rich"],
-  "preview": "preview.png",
+  "preview": "graphics/images/preview.png",
   "url": "https://github.com/ChrisCarucci/DF_Mod_Pack",
   "readme": "Readme.md",
   "info": "info.txt",

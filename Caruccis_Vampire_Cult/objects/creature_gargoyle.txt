@@ -4,7 +4,7 @@
     [DESCRIPTION:A stone-carved protector, blood-bound. Ancient runes pulse with crimson light beneath its granite skin. It stands eternal vigil, neither living nor truly dead.]
     [CREATURE_TILE:'G'][COLOR:7:7:7]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
-    [BODY:HUMANOID:2EYES:2EARS:1NOSE:1MOUTH:2ARMS:2LEGS:2HANDS:2FEET:10FINGERS:10TOES]
+    [BODY:HUMANOID_SIMPLE]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_SIZE:0:0:80000]
     [APPEARS_IN_WORLD_GEN]

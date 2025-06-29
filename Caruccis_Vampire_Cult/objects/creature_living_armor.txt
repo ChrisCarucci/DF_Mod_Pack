@@ -4,7 +4,7 @@
     [DESCRIPTION:An animated warplate of hatred and bloodstone. Dark magic flows through every joint and rivet like liquid malice. It moves with purpose that transcends the need for flesh or soul.]
     [CREATURE_TILE:'A'][COLOR:0:0:1]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
-    [BODY:HUMANOID:2EYES:2EARS:1NOSE:1MOUTH:2ARMS:2LEGS:2HANDS:2FEET:10FINGERS:10TOES]
+    [BODY:HUMANOID_SIMPLE]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_SIZE:0:0:90000]
     [APPEARS_IN_WORLD_GEN]

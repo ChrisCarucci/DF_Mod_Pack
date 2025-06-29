@@ -4,7 +4,7 @@
     [DESCRIPTION:A cursed being, stripped of civilization and loyalty. The vampire king's curse has left it a wandering nightmare of pure hunger. It knows only the endless thirst that drives it through the darkness.]
     [CREATURE_TILE:'V'][COLOR:4:0:0]
     [INTELLIGENT][CAN_LEARN][CAN_SPEAK]
-    [BODY:HUMANOID:2EYES:2EARS:1NOSE:1MOUTH:2ARMS:2LEGS:2HANDS:2FEET:10FINGERS:10TOES]
+    [BODY:HUMANOID_SIMPLE]
     [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
     [BODY_SIZE:0:0:70000]
     [APPEARS_IN_WORLD_GEN]
