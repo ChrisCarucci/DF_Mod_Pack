@@ -1,13 +1,1 @@
-item_tool_colossus
-
-[OBJECT:ITEM]
-
-[ITEM_TOOL:COLOSSUS_PARTS]
-  [NAME:colossus parts:colossus parts]
-  [VALUE:500] => valuable, but worth melting
-  [TILE:'C']
-  [SIZE:20000000]
-  [MATERIAL_SIZE:1000] => melts down to 300 bars!
-  [INCOMPLETE_ITEM] <= does nothing
-  [UNIMPROVABLE]
-  [METAL_MAT]
+item_tool_colossus\n\n[OBJECT:ITEM]\n\n[ITEM_TOOL:COLOSSUS_PARTS]\n  [NAME:colossus parts:colossus parts]\n  [VALUE:500] => valuable, but worth melting\n  [TILE:'C']\n  [SIZE:20000000]\n  [MATERIAL_SIZE:1000] => melts down to 300 bars!\n  [INCOMPLETE_ITEM] <= does nothing\n  [UNIMPROVABLE]\n  [METAL_MAT]\n

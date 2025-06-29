@@ -1,8 +1,1 @@
-text_blendec
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:SLAIN_BLENDEC]
-
-who I grabbed by the horns, and smote like an insect. 
-who I grabbed by the horns and tore apart.
+text_blendec\n\n[OBJECT:TEXT_SET]\n\n[TEXT_SET:SLAIN_BLENDEC]\n\nwho I grabbed by the horns, and smote like an insect. \nwho I grabbed by the horns and tore apart.

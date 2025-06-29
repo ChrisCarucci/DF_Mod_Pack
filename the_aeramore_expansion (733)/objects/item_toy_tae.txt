@@ -1,17 +1,1 @@
-item_toy_tae
-
-[OBJECT:ITEM]
-
-[ITEM_TOY:ITEM_TAE_TOY_BAUBLE]
-[NAME:toy bauble:toy baubles]
-
-[ITEM_TOY:ITEM_TAE_TOY_DOLL]
-[NAME:toy doll:toy dolls]
-
-[ITEM_TOY:ITEM_TAE_TOY_FIGURE]
-[NAME:toy figure:toy figures]
-[HARD_MAT]
-
-[ITEM_TOY:ITEM_TAE_TOY_MARBLES]
-[NAME:marbles:marbles]
-[HARD_MAT]
+item_toy_tae\n\n[OBJECT:ITEM]\n\n[ITEM_TOY:ITEM_TAE_TOY_BAUBLE]\n[NAME:toy bauble:toy baubles]\n\n[ITEM_TOY:ITEM_TAE_TOY_DOLL]\n[NAME:toy doll:toy dolls]\n\n[ITEM_TOY:ITEM_TAE_TOY_FIGURE]\n[NAME:toy figure:toy figures]\n[HARD_MAT]\n\n[ITEM_TOY:ITEM_TAE_TOY_MARBLES]\n[NAME:marbles:marbles]\n[HARD_MAT]

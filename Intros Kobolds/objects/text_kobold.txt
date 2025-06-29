@@ -1,9 +1,1 @@
-text_kobold
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:SLAIN_KOBOLD]
-
-whose tricks were no match for my might
-who thought [PRO_OBJ] traps brought safety
-who pathetic groveling fell on deaf ears
+text_kobold\n\n[OBJECT:TEXT_SET]\n\n[TEXT_SET:SLAIN_KOBOLD]\n\nwhose tricks were no match for my might\nwho thought [PRO_OBJ] traps brought safety\nwho pathetic groveling fell on deaf ears

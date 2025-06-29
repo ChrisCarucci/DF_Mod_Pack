@@ -1,16 +1,1 @@
-item_dark_elf_toy
-
-[OBJECT:ITEM]
-
-[ITEM_TOY:ITEM_TOY_SPIDER]
-[NAME:toy spider:toy spiders]
-[HARD_MAT]
-
-[ITEM_TOY:ITEM_TOY_MUSICBOX]
-[NAME:musicbox:musicboxes]
-[HARD_MAT]
-
-[ITEM_TOY:ITEM_TOY_SCIMITAR]
-[NAME:toy scimitar:toy scimitars]
-[HARD_MAT]
-
+item_dark_elf_toy\n\n[OBJECT:ITEM]\n\n[ITEM_TOY:ITEM_TOY_SPIDER]\n[NAME:toy spider:toy spiders]\n[HARD_MAT]\n\n[ITEM_TOY:ITEM_TOY_MUSICBOX]\n[NAME:musicbox:musicboxes]\n[HARD_MAT]\n\n[ITEM_TOY:ITEM_TOY_SCIMITAR]\n[NAME:toy scimitar:toy scimitars]\n[HARD_MAT]\n\n

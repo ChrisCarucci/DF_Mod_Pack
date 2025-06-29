@@ -1,15 +1,1 @@
-item_kobold_toy
-
-[OBJECT:ITEM]
-
-[ITEM_TOY:ITEM_TOY_DRAGON]
-[NAME:toy dragon:toy dragons]
-[HARD_MAT]
-
-[ITEM_TOY:ITEM_TOY_SNARE]
-[NAME:toy snare:toy snares]
-[HARD_MAT]
-
-[ITEM_TOY:ITEM_TOY_TREASURE]
-[NAME:toy treasure:toy treasures]
-[HARD_MAT]
+item_kobold_toy\n\n[OBJECT:ITEM]\n\n[ITEM_TOY:ITEM_TOY_DRAGON]\n[NAME:toy dragon:toy dragons]\n[HARD_MAT]\n\n[ITEM_TOY:ITEM_TOY_SNARE]\n[NAME:toy snare:toy snares]\n[HARD_MAT]\n\n[ITEM_TOY:ITEM_TOY_TREASURE]\n[NAME:toy treasure:toy treasures]\n[HARD_MAT]
