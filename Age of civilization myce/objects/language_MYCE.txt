@@ -999,7 +999,7 @@ skaven,cheez,ratat,skitir,skatur,ire,athe,ekkiga,kattefa
 	[T_WORD:YEAR:kurir]
 	[T_WORD:YEARLING:skagattar]
 	[T_WORD:YELLOW:attitit]
-	[T_WORD:YOR:efir]
+
 	[T_WORD:YOUNG:ragar]
 	[T_WORD:YOUTH:ithar]
 	[T_WORD:ZEAL:kivet]
