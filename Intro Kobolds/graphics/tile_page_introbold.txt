@@ -1,0 +1,36 @@
+tile_page_introbold
+
+[OBJECT:TILE_PAGE]
+
+
+[TILE_PAGE:INTRO_KOBOLD_BODY]
+	[FILE:images/intro_kobold_body_new.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:288]
+	
+[TILE_PAGE:INTRO_KOBOLD_BODY_SPECIAL]
+	[FILE:images/intro_kobold_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:448]
+
+[TILE_PAGE:INTRO_KOBOLD_EXTRA]
+	[FILE:images/intro_kobold_extra.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:576]
+
+[TILE_PAGE:INTRO_KOBOLD_CLOTHING]
+	[FILE:images/intro_kobold_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:736]
+
+[TILE_PAGE:INTRO_KOBOLD_ARMOR]
+	[FILE:images/intro_kobold_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:768]
+
+[TILE_PAGE:INTRO_KOBOLD_WIELDABLES]
+	[FILE:images/intro_kobold_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:864]
+
+

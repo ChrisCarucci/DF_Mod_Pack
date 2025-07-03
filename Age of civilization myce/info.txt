@@ -1,0 +1,15 @@
+[STEAM_TITLE:Age of Civilizations - Myce]
+[STEAM_DESCRIPTION:Adds the Myce from the 'Age of Civilizations' series.]
+[STEAM_TAG:mod] <-- as many as you want, use a separate STEAM_TAG for each one
+[STEAM_TAG:entity]
+[STEAM_CHANGELOG:Fix for variable positions, only static positions remain.]
+
+[ID:age_of_civilizations_myce]
+[NUMERIC_VERSION:077]
+[DISPLAYED_VERSION:0.77]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:071]
+[AUTHOR:TwinCrows]
+[NAME:Age of Civilizations - Myce]
+[DESCRIPTION:Adds the Myce from the Age of Civilizations series.]
+
+[STEAM_FILE_ID:3331095266]

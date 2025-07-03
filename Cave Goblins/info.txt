@@ -1,0 +1,49 @@
+[ID:cave_goblins]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Digganob]
+[NAME:Cave Goblins]
+[DESCRIPTION:Adds a "civilization" of diminutive, barbaric goblins, that skulk in caves and engage in wanton banditry and thievery.]
+
+[STEAM_TITLE:Cave Goblins]
+[STEAM_DESCRIPTION:Adds a "civilization" of diminutive, barbaric goblins, that skulk in caves and engage in wanton banditry and thievery.
+
+IMPORTANT: It is recommend you use Creature Graphics Extended with this mod, as the graphics are scaled and styled in the same way as the graphics of that mod. Otherwise, the goblins here will be strangely large.
+
+Cave goblins are cousins to the vanilla goblins, but are generally smaller, stupider, skulkier and sneakier, accordingly living in caves, burrows in forests, and underground fortresses. Lacking any work ethic, or ethics at all, they spend all their efforts stealing from and raiding other civilizations. However, they lack the baby-snatching tendencies of their cousins, not willing to invite any outsiders into their society due to their complete hatred of others, and unintelligible languages. They also breed incredibly quickly, in litters, and grow to adulthood in one year.
+
+Cave goblins also have a tendency to grow larger with time and experience, resulting in several variations of the otherwise simple, and weak creatures:
+* Larger goblins, which are like their smaller brethren, but larger, and generally better at fighting.
+* Hob goblins, having grown taller than the greater part of even humans, are also massively strong, being able to knock down doors, and easily wield any weapon one-handed.
+* Shamans, learned in secret magic, can cast a few simple, but often devastating spells.
+* Champions, larger even than hob goblins, tower over the civilized races, nearly as large trolls, and far more skilled in armed combat.
+* Lords, as large as hob goblins, but as cunning as any general, command their kin in warfare, and are among their best fighters.
+
+Though cave goblins are not often well-equipped, rarely having access to armor, and being for the most part very weak, they can prove a deadly threat if not taken seriously. Their stronger variations can be unique challenges for a militia, and their stealthy ambushes can take an ill-prepared fortress off-guard. They are also fierce tunnel-fighters, having excellent senses of smell, and perfect darksight.
+
+
+Credits:
+
+Creature Graphics Extended was used as a base and reference for almost all of the graphics in the mod:
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2903486617&searchtext=creature
+
+Dwarf Arcaena was used for the shamans' spells:
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2916113867&searchtext=dwarf+arcaena
+
+Goblin Slayer by Kumo Kagyu was the primary inspiration for this mod.
+
+
+Notes:
+
+Please report any bugs in the dedicated reports discussion. Any and all suggestions and questions may otherwise be asked right below. It is very likely there is something I missed, or could not easily test, which will be obvious in actual gameplay.
+
+I am also developing a mod which expands the available armor and weapons in the game massively, with full graphical implementation. If you have any suggestions for a piece of armor or weapon you would like to see in the game, sourced from either reality or fantasy, please do so. Just have a vague idea of realism in mind.]
+[STEAM_TAG:mod]
+[STEAM_TAG:graphics]
+[STEAM_TAG:creature]
+[STEAM_TAG:entity]
+[STEAM_FILE_ID:3134653709]

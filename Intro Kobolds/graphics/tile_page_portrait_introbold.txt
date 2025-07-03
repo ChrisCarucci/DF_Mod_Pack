@@ -1,0 +1,98 @@
+tile_page_portrait_introbold
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_BODY]
+	[FILE:images/portraits/introbold_portrait_body.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:1248:768]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_BREASTPLATE]
+	[FILE:images/portraits/introbold_portrait_breastplate.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:576:288]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_CAP]
+	[FILE:images/portraits/introbold_portrait_cap.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:384]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_CAPE]
+	[FILE:images/portraits/introbold_portrait_cape.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+ 
+[TILE_PAGE:INTROBOLD_PORTRAIT_CHAINMAIL]
+	[FILE:images/portraits/introbold_portrait_chainmail.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_CLOAK]
+	[FILE:images/portraits/introbold_portrait_cloak.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_COAT]
+	[FILE:images/portraits/introbold_portrait_coat.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_HEADSCARF]
+	[FILE:images/portraits/introbold_portrait_headscarf.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:384]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_HEADVEIL]
+	[FILE:images/portraits/introbold_portrait_headveil.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_HELMET]
+	[FILE:images/portraits/introbold_portrait_helmet.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+
+[TILE_PAGE:INTROBOLD_PORTRAIT_HOOD]
+	[FILE:images/portraits/introbold_portrait_hood.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_LEATHER_ARMOR]
+	[FILE:images/portraits/introbold_portrait_leather_armor.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:576:288]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_MASK]
+	[FILE:images/portraits/introbold_portrait_mask.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_METAL_CAP]
+	[FILE:images/portraits/introbold_portrait_metal_cap.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_SHIRT]
+	[FILE:images/portraits/introbold_portrait_shirt.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_TOGA]
+	[FILE:images/portraits/introbold_portrait_toga.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_TURBAN]
+	[FILE:images/portraits/introbold_portrait_turban.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_VEIL]
+	[FILE:images/portraits/introbold_portrait_veil.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+	
+[TILE_PAGE:INTROBOLD_PORTRAIT_VEST]
+	[FILE:images/portraits/introbold_portrait_vest.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]

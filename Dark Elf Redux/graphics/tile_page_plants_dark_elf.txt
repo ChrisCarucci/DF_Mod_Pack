@@ -1,0 +1,9 @@
+tile_page_plants_dark_elf
+
+[OBJECT:TILE_PAGE]
+
+
+[TILE_PAGE:DARK_ELF_PLANT_STANDARD]
+	[FILE:images/dark_elf_plant_standard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]

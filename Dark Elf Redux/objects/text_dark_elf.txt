@@ -1,0 +1,12 @@
+text_dark_elf
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:SLAIN_DARK_ELF]
+
+whose white hair was a dead give away
+whose luck was not on their side
+whose chaotic gods were not on their side this time
+who decided to stay enveloped in shadow forever
+who was returned to the shadow and stown from which it was spawned
+whose tall tales of gradour were all the more embarrassing because of [PRO_POS] ears

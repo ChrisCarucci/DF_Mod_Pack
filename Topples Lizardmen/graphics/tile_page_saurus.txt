@@ -1,0 +1,43 @@
+tile_page_saurus
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:SAURUS_BODY]
+	[FILE:images/saurus_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1920:3136]
+
+[TILE_PAGE:SAURUS_ARMOR]
+	[FILE:images/saurus_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1056:1568]
+
+[TILE_PAGE:SAURUS_BODY_SPECIAL]
+	[FILE:images/saurus_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1920:3136]
+
+[TILE_PAGE:SAURUS_CLOTHES]
+	[FILE:images/saurus_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1728:1440]
+
+[TILE_PAGE:SAURUS_WIELDABLES_R]
+	[FILE:images/saurus_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:SAURUS_WIELDABLES_L]
+	[FILE:images/saurus_wieldables_l.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:SAURUS_WIELDABLES_M]
+	[FILE:images/saurus_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+	
+[TILE_PAGE:SAURUS_CORPSE]
+	[FILE:images/saurus_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]

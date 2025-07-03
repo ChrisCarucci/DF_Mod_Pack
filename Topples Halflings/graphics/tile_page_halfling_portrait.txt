@@ -1,0 +1,128 @@
+tile_page_halfling_portrait
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:PORTRAIT_HALFLING_BODY]
+	[FILE:images/portraits/halfling_portrait_body.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:1536:1152]
+
+[TILE_PAGE:PORTRAIT_HALFLING_HAIR]
+	[FILE:images/portraits/halfling_portrait_hair.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:576:1536]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_UNDER]
+	[FILE:images/portraits/halfling_portrait_clothing_under.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:96]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_CAP]
+	[FILE:images/portraits/halfling_portrait_clothing_cap.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:384]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_COAT]
+	[FILE:images/portraits/halfling_portrait_clothing_coat.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_VEST]
+	[FILE:images/portraits/halfling_portrait_clothing_vest.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_SHIRT]
+	[FILE:images/portraits/halfling_portrait_clothing_shirt.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_TOGA]
+	[FILE:images/portraits/halfling_portrait_clothing_toga.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_MAIL_SHIRT]
+	[FILE:images/portraits/halfling_portrait_clothing_chainmail.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_LEATHER]
+	[FILE:images/portraits/halfling_portrait_clothing_leather.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_BREASTPLATE]
+	[FILE:images/portraits/halfling_portrait_clothing_breastplate.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_CLOAK]
+	[FILE:images/portraits/halfling_portrait_clothing_cloak.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:480]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_CAPE]
+	[FILE:images/portraits/halfling_portrait_clothing_cape.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:576]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_VEIL_HEAD]
+	[FILE:images/portraits/halfling_portrait_clothing_headveil.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_HOOD]
+	[FILE:images/portraits/halfling_portrait_clothing_hood.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_VEIL_FACE]
+	[FILE:images/portraits/halfling_portrait_clothing_veil.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_HELM]
+	[FILE:images/portraits/halfling_portrait_clothing_helmet.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_TURBAN]
+	[FILE:images/portraits/halfling_portrait_clothing_turban.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_SCARF_HEAD]
+	[FILE:images/portraits/halfling_portrait_clothing_headscarf.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CLOTHING_MASK]
+	[FILE:images/portraits/halfling_portrait_clothing_mask.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:480]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CHILD_BODY]
+	[FILE:images/portraits/halfling_portrait_child_body.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:864:576]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CHILD_HAIR]
+	[FILE:images/portraits/halfling_portrait_child_hair.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:288:1536]
+
+[TILE_PAGE:PORTRAIT_HALFLING_CHILD_CLOTHING]
+	[FILE:images/portraits/halfling_portrait_child_clothing.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:384:576]
+
+[TILE_PAGE:PORTRAIT_HALFLING_BABY]
+	[FILE:images/portraits/halfling_portrait_baby.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:192:96]
+
+[TILE_PAGE:HALFLING_BODY_BLEMISH]
+	[FILE:images/portraits/halfling_body_blemishes.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:480:672]

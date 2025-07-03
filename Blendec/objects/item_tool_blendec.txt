@@ -1,0 +1,21 @@
+item_tool_blendec
+
+[OBJECT:ITEM]
+
+[ITEM_TOOL:ITEM_TOOL_TALISMANSIMPLE]
+[NAME:simple talisman:simple talismans]
+[VALUE:10]
+[HARD_MAT]
+[NO_DEFAULT_JOB]
+[TILE:'v']
+[SIZE:50]
+[MATERIAL_SIZE:1]
+
+[ITEM_TOOL:ITEM_TOOL_TALISMAN]
+[NAME:talisman:talismans]
+[VALUE:400]
+[HARD_MAT]
+[NO_DEFAULT_JOB]
+[TILE:'v']
+[SIZE:50]
+[MATERIAL_SIZE:1]

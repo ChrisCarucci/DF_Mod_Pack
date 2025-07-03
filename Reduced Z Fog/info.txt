@@ -1,0 +1,17 @@
+[ID:reduced_zfog]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Munashe]
+[NAME:Reduced Z Fog]
+[DESCRIPTION:Thins out the z-level fog.]
+
+[STEAM_TITLE:Reduced Z-Level Fog]
+[STEAM_DESCRIPTION:Thins out the z-level fog.]
+[STEAM_TAG:mod]
+[STEAM_TAG:qol]
+[STEAM_TAG:fix]
+[STEAM_TAG:cosmetic]
+
+[STEAM_FILE_ID:2898829756]

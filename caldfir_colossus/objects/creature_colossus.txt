@@ -1,0 +1,86 @@
+creature_colossus.txt
+
+COLOSSUS_BRONZE
+
+[OBJECT:CREATURE]
+
+[SELECT_CREATURE:COLOSSUS_BRONZE]
+  {APPLY_CREATURE_VARIATION:RE_DEBUG2}
+  [APPLY_CREATURE_VARIATION:RE_COLOSSUS]
+  [DESCRIPTION:A gigantic magic statue made of metal and bent on mayhem.]
+  [NAME:colossus:colossuses:colossus]
+  [NATURAL_SKILL:WRESTLING:6]
+  [NATURAL_SKILL:GRASP_STRIKE:3] <= discourage punching
+  [NATURAL_SKILL:STANCE_STRIKE:9] <= encourage kicking
+  [NATURAL_SKILL:MELEE_COMBAT:6]
+  [NATURAL_SKILL:SITUATIONAL_AWARENESS:6]
+  [TRAPAVOID]
+  [CANNOT_JUMP]
+  [GRASSTRAMPLE:100]
+  [BODY_DETAIL_PLAN:METAL_TISSUES]
+    
+  [CASTE:BRONZE]
+    [CASTE_COLOR:6:4:0]
+    [CASTE_NAME:bronze colossus:bronze colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of bronze and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:BRONZE]
+    [POP_RATIO:100]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_BRONZE]
+    
+  [CASTE:BISMUTH_BRONZE]
+    [CASTE_COLOR:6:6:1]
+    [CASTE_NAME:bronze colossus:bronze colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of bismuth bronze and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:BISMUTH_BRONZE]
+    [POP_RATIO:50]
+      [TISSUE_LAYER:BY_CATEGORY:ALL:TU_BISMUTH_BRONZE]
+    
+  [CASTE:BRASS]
+    [CASTE_COLOR:6:6:1]
+    [CASTE_NAME:brass colossus:brass colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of brass and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:BRASS]
+    [POP_RATIO:50]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_BRASS]
+    
+  [CASTE:BLACK_BRONZE]
+    [CASTE_COLOR:5:6:0]
+    [CASTE_NAME:hepatizon colossus:hepatizon colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of black bronze and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:BLACK_BRONZE]
+    [POP_RATIO:50]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_BLACK_BRONZE]
+    
+  [CASTE:NICKEL_SILVER]
+    [CASTE_COLOR:6:6:1]
+    [CASTE_NAME:argentan colossus:argentan colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of nickel silver and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:NICKEL_SILVER]
+    [POP_RATIO:50]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_NICKEL_SILVER]
+    
+  [CASTE:PEWTER_FINE]
+    [CASTE_COLOR:7:7:1]
+    [CASTE_NAME:pewter colossus:pewter colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of fine pewter and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:PEWTER_FINE]
+    [POP_RATIO:25]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_PEWTER_FINE]
+    
+  [CASTE:PEWTER_TRIFLE]
+    [CASTE_COLOR:7:3:0]
+    [CASTE_NAME:pewter colossus:pewter colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of trifle pewter and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:PEWTER_TRIFLE]
+    [POP_RATIO:25]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_PEWTER_TRIFLE]
+    
+  [CASTE:PEWTER_LAY]
+    [CASTE_COLOR:3:7:0]
+    [CASTE_NAME:pewter colossus:pewter colossuses:colossus]
+    [DESCRIPTION:A gigantic magic statue made of lay pewter and bent on mayhem.]
+    [ITEMCORPSE:TOOL:COLOSSUS_PARTS:INORGANIC:PEWTER_LAY]
+    [POP_RATIO:25]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:TU_PEWTER_LAY]
+    
+  [SELECT_CASTE:ALL]

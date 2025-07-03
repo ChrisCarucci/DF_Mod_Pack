@@ -1,0 +1,459 @@
+tile_page_cavegoblin
+
+[OBJECT:TILE_PAGE]
+
+Small cave goblins
+
+[TILE_PAGE:BABYCAVEGOBLIN]
+	[FILE:images/small gobs/cavegoblin_body_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:CAVEGOBLIN_SHADOWS]
+	[FILE:images/shadows.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:96]
+
+[TILE_PAGE:CAVEGOBLIN_BODY_CORPSE]
+	[FILE:images/small gobs/cavegoblin_body_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:CAVEGOBLIN_BODY]
+	[FILE:images/small gobs/cavegoblin_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:320]
+	
+[TILE_PAGE:CAVEGOBLIN_HEAD]
+	[FILE:images/small gobs/cavegoblin_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1280]
+
+[TILE_PAGE:CAVEGOBLIN_BODY_SPECIAL]
+	[FILE:images/small gobs/cavegoblin_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:448]
+
+[TILE_PAGE:CAVEGOBLIN_HEAD_SPECIAL]
+	[FILE:images/small gobs/cavegoblin_head_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1792]
+
+[TILE_PAGE:CAVEGOBLIN_HAIR_BEARD]
+	[FILE:images/small gobs/cavegoblin_hair_beard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:CAVEGOBLIN_HAIR_SIDEBURNS]
+	[FILE:images/small gobs/cavegoblin_hair_sideburns.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:CAVEGOBLIN_CLOTHING_BODY]
+	[FILE:images/small gobs/cavegoblin_clothing_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:1696]
+
+[TILE_PAGE:CAVEGOBLIN_CLOTHING_HEAD]
+	[FILE:images/small gobs/cavegoblin_clothing_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:544]
+
+[TILE_PAGE:CAVEGOBLIN_ARMOR_BODY]
+	[FILE:images/small gobs/cavegoblin_armor_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:1728]
+
+[TILE_PAGE:CAVEGOBLIN_ARMOR_HEAD]
+	[FILE:images/small gobs/cavegoblin_armor_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:544]
+	
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_RIGHT_SWORDS]
+	[FILE:images/small gobs/cavegoblin_wieldables_right_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_RIGHT_AXES]
+	[FILE:images/small gobs/cavegoblin_wieldables_right_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_RIGHT_POLES]
+	[FILE:images/small gobs/cavegoblin_wieldables_right_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_RIGHT_BLUNT]
+	[FILE:images/small gobs/cavegoblin_wieldables_right_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_RIGHT_MISC]
+	[FILE:images/small gobs/cavegoblin_wieldables_right_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+	
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_LEFT_SWORDS]
+	[FILE:images/small gobs/cavegoblin_wieldables_left_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_LEFT_AXES]
+	[FILE:images/small gobs/cavegoblin_wieldables_left_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_LEFT_POLES]
+	[FILE:images/small gobs/cavegoblin_wieldables_left_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_LEFT_BLUNT]
+	[FILE:images/small gobs/cavegoblin_wieldables_left_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CAVEGOBLIN_WIELDABLES_LEFT_MISC]
+	[FILE:images/small gobs/cavegoblin_wieldables_left_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+Large cave goblins
+
+[TILE_PAGE:LARGECAVEGOBLIN_BODY]
+	[FILE:images/large gobs/largecavegoblin_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:320]
+	
+[TILE_PAGE:LARGECAVEGOBLIN_HEAD]
+	[FILE:images/large gobs/largecavegoblin_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1280]
+
+[TILE_PAGE:LARGECAVEGOBLIN_BODY_SPECIAL]
+	[FILE:images/large gobs/largecavegoblin_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:448]
+
+[TILE_PAGE:LARGECAVEGOBLIN_HEAD_SPECIAL]
+	[FILE:images/large gobs/largecavegoblin_head_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1792]
+
+[TILE_PAGE:LARGECAVEGOBLIN_HAIR_BEARD]
+	[FILE:images/large gobs/largecavegoblin_hair_beard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:LARGECAVEGOBLIN_HAIR_SIDEBURNS]
+	[FILE:images/large gobs/largecavegoblin_hair_sideburns.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:LARGECAVEGOBLIN_CLOTHING_BODY]
+	[FILE:images/large gobs/largecavegoblin_clothing_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:1696]
+
+[TILE_PAGE:LARGECAVEGOBLIN_CLOTHING_HEAD]
+	[FILE:images/large gobs/largecavegoblin_clothing_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:544]
+
+[TILE_PAGE:LARGECAVEGOBLIN_ARMOR_BODY]
+	[FILE:images/large gobs/largecavegoblin_armor_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:1728]
+
+[TILE_PAGE:LARGECAVEGOBLIN_ARMOR_BODY_NEW]
+	[FILE:images/large gobs/largecavegoblin_armor_body_new.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:1728]
+
+[TILE_PAGE:LARGECAVEGOBLIN_ARMOR_HEAD]
+	[FILE:images/large gobs/largecavegoblin_armor_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:544]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_RIGHT]
+	[FILE:images/large gobs/largecavegoblin_wieldables_right.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+	
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_RIGHT_SWORDS]
+	[FILE:images/large gobs/largecavegoblin_wieldables_right_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_RIGHT_AXES]
+	[FILE:images/large gobs/largecavegoblin_wieldables_right_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_RIGHT_POLES]
+	[FILE:images/large gobs/largecavegoblin_wieldables_right_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_RIGHT_BLUNT]
+	[FILE:images/large gobs/largecavegoblin_wieldables_right_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_RIGHT_MISC]
+	[FILE:images/large gobs/largecavegoblin_wieldables_right_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+	
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_LEFT]
+	[FILE:images/large gobs/largecavegoblin_wieldables_left.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_LEFT_SWORDS]
+	[FILE:images/large gobs/largecavegoblin_wieldables_left_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_LEFT_AXES]
+	[FILE:images/large gobs/largecavegoblin_wieldables_left_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_LEFT_POLES]
+	[FILE:images/large gobs/largecavegoblin_wieldables_left_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_LEFT_BLUNT]
+	[FILE:images/large gobs/largecavegoblin_wieldables_left_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:LARGECAVEGOBLIN_WIELDABLES_LEFT_MISC]
+	[FILE:images/large gobs/largecavegoblin_wieldables_left_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+Hob goblins
+
+[TILE_PAGE:HOBCAVEGOBLIN_BODY]
+	[FILE:images/hob gobs/hobgoblin_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:320]
+	
+[TILE_PAGE:HOBCAVEGOBLIN_HEAD]
+	[FILE:images/hob gobs/hobgoblin_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1280]
+
+[TILE_PAGE:HOBCAVEGOBLIN_BODY_SPECIAL]
+	[FILE:images/hob gobs/hobgoblin_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:448]
+
+[TILE_PAGE:HOBCAVEGOBLIN_HEAD_SPECIAL]
+	[FILE:images/hob gobs/hobgoblin_head_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1792]
+
+[TILE_PAGE:HOBCAVEGOBLIN_HAIR_BEARD]
+	[FILE:images/hob gobs/hobgoblin_hair_beard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:HOBCAVEGOBLIN_HAIR_SIDEBURNS]
+	[FILE:images/hob gobs/hobgoblin_hair_sideburns.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:HOBCAVEGOBLIN_CLOTHING_BODY]
+	[FILE:images/hob gobs/hobgoblin_clothing_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:1696]
+
+[TILE_PAGE:HOBCAVEGOBLIN_CLOTHING_HEAD]
+	[FILE:images/hob gobs/hobgoblin_clothing_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:544]
+
+[TILE_PAGE:HOBCAVEGOBLIN_ARMOR_BODY]
+	[FILE:images/hob gobs/hobgoblin_armor_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:1728]
+
+[TILE_PAGE:HOBCAVEGOBLIN_ARMOR_HEAD]
+	[FILE:images/hob gobs/hobgoblin_armor_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:544]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_RIGHT_SWORDS]
+	[FILE:images/hob gobs/hobgoblin_wieldables_right_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_RIGHT_AXES]
+	[FILE:images/hob gobs/hobgoblin_wieldables_right_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_RIGHT_POLES]
+	[FILE:images/hob gobs/hobgoblin_wieldables_right_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_RIGHT_BLUNT]
+	[FILE:images/hob gobs/hobgoblin_wieldables_right_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_RIGHT_MISC]
+	[FILE:images/hob gobs/hobgoblin_wieldables_right_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_LEFT_SWORDS]
+	[FILE:images/hob gobs/hobgoblin_wieldables_left_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_LEFT_AXES]
+	[FILE:images/hob gobs/hobgoblin_wieldables_left_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_LEFT_POLES]
+	[FILE:images/hob gobs/hobgoblin_wieldables_left_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_LEFT_BLUNT]
+	[FILE:images/hob gobs/hobgoblin_wieldables_left_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:HOBCAVEGOBLIN_WIELDABLES_LEFT_MISC]
+	[FILE:images/hob gobs/hobgoblin_wieldables_left_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+Goblin lords
+
+[TILE_PAGE:LORDGOBLIN_BODY]
+	[FILE:images/lord gobs/lordgoblin_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:320]
+
+
+[TILE_PAGE:LORDGOBLIN_BODY_SPECIAL]
+	[FILE:images/lord gobs/lordgoblin_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:448]
+
+[TILE_PAGE:LORDGOBLIN_ARMOR_BODY]
+	[FILE:images/lord gobs/lordgoblin_armor_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:1728]
+
+Champion goblins
+
+[TILE_PAGE:CHAMPGOBLIN_BODY]
+	[FILE:images/champ gobs/champgoblin_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:320]
+	
+[TILE_PAGE:CHAMPGOBLIN_HEAD]
+	[FILE:images/champ gobs/champgoblin_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1280]
+
+[TILE_PAGE:CHAMPGOBLIN_BODY_SPECIAL]
+	[FILE:images/champ gobs/champgoblin_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:448]
+
+[TILE_PAGE:CHAMPGOBLIN_HEAD_SPECIAL]
+	[FILE:images/champ gobs/champgoblin_head_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1792]
+
+[TILE_PAGE:CHAMPGOBLIN_HAIR_BEARD]
+	[FILE:images/champ gobs/champgoblin_hair_beard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:CHAMPGOBLIN_HAIR_SIDEBURNS]
+	[FILE:images/champ gobs/champgoblin_hair_sideburns.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:448]
+
+[TILE_PAGE:CHAMPGOBLIN_CLOTHING_BODY]
+	[FILE:images/champ gobs/champgoblin_clothing_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:1696]
+
+[TILE_PAGE:CHAMPGOBLIN_CLOTHING_HEAD]
+	[FILE:images/champ gobs/champgoblin_clothing_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:608:544]
+
+[TILE_PAGE:CHAMPGOBLIN_ARMOR_BODY]
+	[FILE:images/champ gobs/champgoblin_armor_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:1728]
+
+[TILE_PAGE:CHAMPGOBLIN_ARMOR_HEAD]
+	[FILE:images/champ gobs/champgoblin_armor_head.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:544]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_RIGHT_SWORDS]
+	[FILE:images/champ gobs/champgoblin_wieldables_right_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_RIGHT_AXES]
+	[FILE:images/champ gobs/champgoblin_wieldables_right_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_RIGHT_POLES]
+	[FILE:images/champ gobs/champgoblin_wieldables_right_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_RIGHT_BLUNT]
+	[FILE:images/champ gobs/champgoblin_wieldables_right_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_RIGHT_MISC]
+	[FILE:images/champ gobs/champgoblin_wieldables_right_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+	
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_LEFT_SWORDS]
+	[FILE:images/champ gobs/champgoblin_wieldables_left_swords.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_LEFT_AXES]
+	[FILE:images/champ gobs/champgoblin_wieldables_left_axes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_LEFT_POLES]
+	[FILE:images/champ gobs/champgoblin_wieldables_left_poles.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_LEFT_BLUNT]
+	[FILE:images/champ gobs/champgoblin_wieldables_left_blunt.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]
+
+[TILE_PAGE:CHAMPGOBLIN_WIELDABLES_LEFT_MISC]
+	[FILE:images/champ gobs/champgoblin_wieldables_left_misc.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:992:832]

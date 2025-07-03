@@ -1,0 +1,118 @@
+reaction_blendec
+
+[OBJECT:REACTION]
+
+Reactions for the new buildings. 
+
+[REACTION:OBSIDIAN_SPEAR] since blendecs can't make short swords it felt fair to give them obsidian spears instead. 
+[NAME:Make Obsidian Spear]
+[BUILDING:CRAFTSMAN:NONE]
+[REAGENT:boulder:1:BOULDER:NONE:INORGANIC:OBSIDIAN]
+[REAGENT:log:1:WOOD:NONE:NONE:NONE]
+	[ANY_PLANT_MATERIAL]
+[PRODUCT:100:1:WEAPON:ITEM_WEAPON_SPEAR:GET_MATERIAL_FROM_REAGENT:boulder:NONE]
+	[PRODUCT_TOKEN:spear]
+
+[REACTION:DESTROY_BOULDER] //destroys unwanted boulders. 
+[NAME:Destroy Boulder]
+[BUILDING:BLENDEC_ROCKGRINDER:NONE]
+[REAGENT:boulder:1:BOULDER:NONE:INORGANIC:NONE]
+[WORTHLESS_STONE_ONLY]
+
+[REACTION:DESTROY_BLOCK] //destroys unwanted blocks. 
+[NAME:Destroy Block]
+[BUILDING:BLENDEC_ROCKGRINDER:NONE]
+[REAGENT:block:1:BLOCKS:NONE:INORGANIC:NONE]
+
+[REACTION:GRIND_ADAMANTINE] //processes adamantine into bags. 
+[NAME:Grind adamantine to chunks (requires bag)]
+[BUILDING:BLENDEC_ROCKGRINDER:NONE]
+[REAGENT:raw adamantine boulder:2:BOULDER:NO_SUBTYPE:INORGANIC:RAW_ADAMANTINE]
+[REAGENT:bag:1:BAG:NONE:NONE:NONE]
+	[EMPTY]
+	[PRESERVE_REAGENT]
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+[PRODUCT:100:1:ROUGH:NO_SUBTYPE:INORGANIC:RAW_ADAMANTINE][PRODUCT_DIMENSION:150]
+[PRODUCT_TO_CONTAINER:bag]
+[PRODUCT_DIMENSION:150]
+
+[REACTION:EXTRACT_ELIXIR] //extracts healing elixir from adamantine powder using lye. 
+[NAME:Extract elixir from adamantine powder using lye]
+[BUILDING:BLENDEC_ALCHEMISTSLAB:NONE]
+[REAGENT:rough raw adamantine chunks:1:ROUGH:NO_SUBTYPE:INORGANIC:RAW_ADAMANTINE]
+[REAGENT:B:1:NONE:NONE:NONE:NONE]
+	[CONTAINS:rough raw adamantine chunks]
+	[PRESERVE_REAGENT]
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+[REAGENT:lye:150:LIQUID_MISC:NONE:LYE]
+[REAGENT:lye container:1:NONE:NONE:NONE:NONE]
+	[CONTAINS:lye]
+	[PRESERVE_REAGENT]
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+[REAGENT:flask:1:FLASK:NONE:NONE:NONE]
+	[EMPTY]
+	[PRESERVE_REAGENT]
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+[PRODUCT:100:1:DRINK:NO_SUBTYPE:INORGANIC:ELIXIR][PRODUCT_DIMENSION:150]
+[PRODUCT_TO_CONTAINER:flask]
+[SKILL:BREWING]
+
+[REACTION:USE_ELIXIR] 
+[NAME:Attempt healing event (not always successful)]
+[BUILDING:BLENDEC_HIGHALTAR:NONE]
+[REAGENT:elixir:150:DRINK:NO_SUBTYPE:INORGANIC:ELIXIR]					
+[REAGENT:flask:1:FLASK:NONE:NONE:NONE]						
+	[CONTAINS:elixir]								
+	[PRESERVE_REAGENT]							
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]				
+[PRODUCT:100:10:BOULDER:NO_SUBTYPE:INORGANIC:HEALTHIUM]  			this vaporises instantly, (see inorganic file) causing the blendec in the workshop to come under the infuence of the syndrome. 
+[PRODUCT:100:1:TOOL:ITEM_TOOL_TALISMAN:INORGANIC:RAW_ADAMANTINE] 
+
+
+/////////////////////////////////////////////////reactions below are currently inactive/commented out///////////////////////////////////////////////////////////////////////
+
+[REACTION:BREW_APHRODISIAC] //brews a concentrated aphrodisiac
+[NAME:Brew concentrated aphrodisiac from honey]
+BUILDING:BLENDEC_ALCHEMISTSLAB:NONE]					this reaction is currently not used in the mod, comment this back in to have it activated. 
+[REAGENT:honey:150:LIQUID_MISC:NONE:CREATURE_MAT:HONEY_BEE:HONEY]
+	[UNROTTEN]
+[REAGENT:honey container:1:NONE:NONE:NONE:NONE]
+	[CONTAINS:honey]
+	[PRESERVE_REAGENT]
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+[REAGENT:flask:1:FLASK:NONE:NONE:NONE]
+	[EMPTY]
+	[PRESERVE_REAGENT]
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+[PRODUCT:100:1:DRINK:NO_SUBTYPE:INORGANIC:CONC_APHRODISIAC][PRODUCT_DIMENSION:150] / should check later if the dimension is compatible with flask?
+[PRODUCT_TO_CONTAINER:flask]
+[SKILL:BREWING]
+
+
+[REACTION:USE_APHRODISIAC] 						
+[NAME:Fertility Blessing]
+BUILDING:BLENDEC_HIGHALTAR:NONE]						this reaction is currently not used in the mod, comment this back in to have it activated. you also need to reactivate the brew_aphrodisiac reaction above. 
+[REAGENT:aphrodisiac:1:DRINK:NO_SUBTYPE:INORGANIC:CONC_APHRODISIAC]		
+[REAGENT:flask:1:FLASK:NONE:NONE:NONE]						
+	[CONTAINS:aphrodisiac]							
+	[PRESERVE_REAGENT]							
+	[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]				
+[PRODUCT:100:10:BOULDER:NO_SUBTYPE:INORGANIC:APHRODISIAC]  this vaporises instantly, (see inorganic file) causing the blendec in the workshop to come under the infuence of the syndrome. 
+[PRODUCT:100:1:TOOL:ITEM_TOOL_TALISMANSIMPLE:INORGANIC:QUARTZ_ROSE] 
+
+
+[REACTION:CHEAT_HONEY]
+	[NAME:free magical honey]				
+	BUILDING:BLENDEC_ALCHEMISTSLAB:NONE]		//commented out, this cheat reaction is for testing purposes for easier access to honey for aphrodisiac production. 
+	[REAGENT:honeycomb:0:TOOL:ITEM_TOOL_HONEYCOMB:NONE:NONE]	
+		[HAS_MATERIAL_REACTION_PRODUCT:HONEYCOMB_PRESS_MAT]
+		[NOT_PRESSED]
+	[REAGENT:liquid container:1:TOOL:NONE:NONE:NONE]
+		[EMPTY]
+		[DOES_NOT_ABSORB]
+		[PRESERVE_REAGENT]
+		[HAS_TOOL_USE:LIQUID_CONTAINER]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:LIQUID_MISC:NONE:CREATURE_MAT:HONEY_BEE:HONEY][PRODUCT_TO_CONTAINER:liquid container]
+	[SKILL:PRESSING]
+

@@ -1,0 +1,8 @@
+tile_page_beholder
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:BEHOLDERS]
+	[FILE:images/beholders.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:128]

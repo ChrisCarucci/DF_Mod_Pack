@@ -1,0 +1,8 @@
+tile_page_muna_mod
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:REDUCED_ZFOG]
+	[FILE:images/reduced_zfog.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:480:416]

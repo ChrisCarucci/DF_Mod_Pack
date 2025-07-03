@@ -1,0 +1,6 @@
+graphics_creatures_layered_statue_kobold
+
+[OBJECT:GRAPHICS]
+
+[STATUE_CREATURE_GRAPHICS:INTRO_KOBOLD]
+        [DEFAULT:INTRO_KOBOLD_STATUES:0:0:0:1]

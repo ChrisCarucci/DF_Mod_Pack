@@ -1,0 +1,15 @@
+[ID:deon_dndbeholder]
+
+[NUMERIC_VERSION:100]
+[DISPLAYED_VERSION: (ver. 1.0)]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:100]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION: (ver. 1.0)]
+[AUTHOR:Deon]
+[NAME:Beholders]
+[DESCRIPTION:Adds beholder creatures to the world.]
+
+[STEAM_TAG:mod]
+[STEAM_TAG:creature]
+
+
+[STEAM_FILE_ID:3267715624]

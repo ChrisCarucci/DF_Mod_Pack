@@ -1,0 +1,58 @@
+[ID:caldfir_redragons]
+[NUMERIC_VERSION:21]
+[DISPLAYED_VERSION:0.21]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.1]
+[REQUIRES_ID_BEFORE_ME:vanilla_creatures]
+[REQUIRES_ID_BEFORE_ME:vanilla_creatures_graphics]
+[AUTHOR:Caldfir]
+[NAME:ReDragons Tweaks]
+[DESCRIPTION:Adjust dragon growth-rates and challenge.]
+
+[STEAM_TITLE:ReDragons Tweaks]
+[STEAM_DESCRIPTION:
+Minor fixes to dragons (and cave-dragons). Vanilla dragons have fallen behind compared to generated fire-breathing titans/beasts, and have difficulty just surviving worldgen. This is my attempt to bump them up to match the competition with minimal change to the flavor of DF dragons. Also some matching graphics for the new child-state and statues.
+
+Note that trap-avoiders need some extra work in order to be caged. Dragons can be knocked-out using a cave-in, which will allow cage-traps to trigger. Hydras are not stunnable (multiple heads) so you need to use webbed traps. This added layer of complexity makes dragon-taming a real endgame accomplishment.
+
+(h3)dragons(/h3)
+
+    +TRAPAVOID
+    grows to elephant-size by age 5
+    fast growth until 100
+    slow growth until age 1000 (max-size unchanged)
+    baby 1y, child 10y
+    +dragon horns
+    +tail attack
+    +natural skills (matches generated titans)
+
+
+(h3)cave-dragons(/h3)
+
+    same changes as dragons
+    +natural-climber
+    -(vestigial) wings
+    +spheres CAVERNS and WEALTH
+    +CURIOUS (tries to steal items)
+
+
+(h3)hydras(/h3)
+
+    +TRAPAVOID
+    grows to elephant-size by age 5
+    fast growth until 20 (same as vanilla)
+    slow growth until age 100 (max-size +20%)
+    baby 1y, child 10y
+    +tail attack
+    +natural skills (matches generated titans)
+    +lays eggs
+]
+[STEAM_TAG:mod]
+[STEAM_TAG:caldfir]
+[STEAM_TAG:dragon]
+[STEAM_TAG:megabeast]
+[STEAM_TAG:balance]
+[STEAM_TAG:tweak]
+[STEAM_CHANGELOG:remove references to cave-dragon wings in description]
+
+[STEAM_FILE_ID:3141891718]

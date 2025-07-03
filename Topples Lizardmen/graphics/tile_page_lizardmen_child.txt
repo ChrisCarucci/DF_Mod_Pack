@@ -1,0 +1,8 @@
+tile_page_lizardmen_child
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:LIZARDMEN_CHILD_BODY]
+	[FILE:images/lizardmen_child_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:160:256]

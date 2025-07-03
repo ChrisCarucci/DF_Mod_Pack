@@ -1,0 +1,48 @@
+[ID:caldfir_recolossus]
+[NUMERIC_VERSION:3]
+[DISPLAYED_VERSION:0.3]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.1]
+[REQUIRES_ID_BEFORE_ME:vanilla_creatures]
+[REQUIRES_ID_BEFORE_ME:vanilla_creatures_graphics]
+[AUTHOR:Caldfir]
+[NAME:ReColossus Tweaks]
+[DESCRIPTION:Enhancements to metal colossus.]
+
+[STEAM_TITLE:ReColossus Tweaks]
+[STEAM_DESCRIPTION:
+Additions and enhancements to the Bronze Colossus. Adds alternate-caste versions of the Colossus for mid-tier alloys. Colossus now drops a special item (tool category) rather than a random statue. These "colossus parts" are quite valuable as a display-object, or can be melted to provide 300 bars of an appropriate metal. These alloys all melt in magma, so you'll only get the reward if you kill them the honest way ;-)
+
+new castes:
+
++(bismuth-)bronze
++(fine/trifle/lay-)pewter
++brass
++hepatizon (black bronze)
++argentan (nickel silver)
+
+
+tweaks:
+
++TRAPAVOID
++natural (+3) striker
++natural (+6) wrestler
++natural (+9) kicker
++"colossus parts" reward (under "tools")
+
+
+graphics:
+
++recolors for each of the new castes
++"colossus parts" item
++new cleaned-up statue sprite]
+[STEAM_TAG:mod]
+[STEAM_TAG:caldfir]
+[STEAM_TAG:bronze]
+[STEAM_TAG:colossus]
+[STEAM_TAG:megabeast]
+[STEAM_TAG:balance]
+[STEAM_TAG:tweak]
+[STEAM_CHANGELOG:colors to match metallic-colors mod]
+
+[STEAM_FILE_ID:3144865739]

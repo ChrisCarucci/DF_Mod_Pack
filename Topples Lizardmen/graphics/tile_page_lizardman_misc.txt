@@ -1,0 +1,34 @@
+tile_page_lizardman_misc
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:LIZARDMAN_WEAPONS]
+	[FILE:images/lizardman_sacred_gauntlet.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:96]
+
+[TILE_PAGE:LIZARDMAN_WEAPONS_ITEM]
+	[FILE:images/lizardman_sacred_gauntlet_item.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:96]
+
+[TILE_PAGE:LIZARDMAN_PACKS]
+	[FILE:images/lizardmen_packs.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:192]
+
+[TILE_PAGE:LIZARDMAN_EGG]
+	[FILE:images/lizardmen_egg.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]
+
+[TILE_PAGE:STATUES_LIZARDMAN]
+	[FILE:images/lizardman_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:160:64]
+
+[TILE_PAGE:STATUES_LIZARDMAN_BEASTS]
+	[FILE:images/lizardmen_beasts_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:64]
+

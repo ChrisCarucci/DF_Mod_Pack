@@ -1,0 +1,6 @@
+graphics_creatures_dark_elf_layered_statues
+
+[OBJECT:GRAPHICS]
+
+[STATUE_CREATURE_GRAPHICS:DARK_ELF]
+        [DEFAULT:DARK_ELF_STATUES:0:0:0:1]

@@ -1,0 +1,43 @@
+tile_page_chameleon
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CHAMELEON_BODY]
+	[FILE:images/chameleon_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:640:3136]
+
+[TILE_PAGE:CHAMELEON_ARMOR]
+	[FILE:images/chameleon_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:352:1568]
+
+[TILE_PAGE:CHAMELEON_BODY_SPECIAL]
+	[FILE:images/chameleon_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:640:3136]
+
+[TILE_PAGE:CHAMELEON_CLOTHES]
+	[FILE:images/chameleon_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1440]
+
+[TILE_PAGE:CHAMELEON_WIELDABLES_R]
+	[FILE:images/chameleon_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:CHAMELEON_WIELDABLES_L]
+	[FILE:images/chameleon_wieldables_l.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+
+[TILE_PAGE:CHAMELEON_WIELDABLES_M]
+	[FILE:images/chameleon_wieldables_r.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:1664]
+	
+[TILE_PAGE:CHAMELEON_CORPSE]
+	[FILE:images/chameleon_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]

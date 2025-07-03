@@ -1,0 +1,14 @@
+[STEAM_TITLE:Age of Civilizations - Boarth]
+[STEAM_DESCRIPTION:Adds the Boarth from the 'Age of Civilizations' series.]
+[STEAM_TAG:mod] <-- as many as you want, use a separate STEAM_TAG for each one
+[STEAM_TAG:entity]
+[STEAM_CHANGELOG:Buffed boarbrass value from 14 to 20]
+
+[ID:age_of_civilizations_boarth]
+[NUMERIC_VERSION:5151]
+[DISPLAYED_VERSION:2.03]
+[AUTHOR:TwinCrows]
+[NAME:Age of Civilizations - Boarth]
+[DESCRIPTION:Adds the Boarth from the Age of Civilizations series.]
+
+[STEAM_FILE_ID:2951896649]

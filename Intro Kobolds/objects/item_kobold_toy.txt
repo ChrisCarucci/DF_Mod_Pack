@@ -1,0 +1,15 @@
+item_kobold_toy
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:ITEM_TOY_DRAGON]
+[NAME:toy dragon:toy dragons]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_SNARE]
+[NAME:toy snare:toy snares]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_TREASURE]
+[NAME:toy treasure:toy treasures]
+[HARD_MAT]

@@ -1,0 +1,28 @@
+tile_page_mythicalbeast_layered
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CENTAUR_HAIR]
+	[FILE:images/centaur/mb_centaur_hair.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:1024]
+
+[TILE_PAGE:CENTAUR_BODY]
+	[FILE:images/centaur/mb_centaur_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:352:320]
+
+[TILE_PAGE:CENTAUR_WEARABLES]
+	[FILE:images/centaur/mb_centaur_wearables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:960]
+
+[TILE_PAGE:CENTAUR_WIELDABLES]
+	[FILE:images/centaur/mb_centaur_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:1472]
+
+[TILE_PAGE:CENTAUR_CORPSE]
+	[FILE:images/centaur/mb_centaur_corpse.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:64]

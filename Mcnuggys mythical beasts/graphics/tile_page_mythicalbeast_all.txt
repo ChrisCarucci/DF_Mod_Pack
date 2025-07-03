@@ -1,0 +1,43 @@
+tile_page_mythicalbeast_all
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CREATURES_MYTHICALBEAST_MEGABEAST]
+	[FILE:images/creatures_mythicalbeast_megabeast.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:384]
+
+[TILE_PAGE:CREATURES_MYTHICALBEAST_STANDARD]
+	[FILE:images/creatures_mythicalbeast_standard.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:640]
+
+[TILE_PAGE:SADDLEBAGS_MYTHICALBEAST]
+	[FILE:images/saddlebags_mythicalbeast.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:64]
+
+[TILE_PAGE:CREATURES_MYTHICALBEAST_STATUES]
+	[FILE:images/creatures_mythicalbeast_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:256]
+
+[TILE_PAGE:CREATURES_MYTHICALBEAST_ICONS]
+	[FILE:images/creatures_mythicalbeast_icons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:96]
+
+[TILE_PAGE:CREATURES_MYTHICALBEAST_GIANT]
+	[FILE:images/creatures_mythicalbeast_giant.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:384]
+
+[TILE_PAGE:PLANT_MYTHICALBEAST]
+	[FILE:images/plant_mythicalbeast.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:32]
+
+[TILE_PAGE:INTERACTION_MYTHICALBEAST]
+	[FILE:images/interaction_list_icons_mythicalbeast.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:72]

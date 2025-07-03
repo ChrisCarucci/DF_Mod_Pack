@@ -1,0 +1,21 @@
+[ID:living_gods]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
+[AUTHOR:Count]
+[NAME:Living Gods]
+[DESCRIPTION:Allows semimegabeasts to present themselves as gods to human civilizations, taking them over. Also grants a few other things.]
+
+[STEAM_TITLE:Living Gods]
+
+[STEAM_DESCRIPTION:Have you noticed that the terrible semimegabeasts are sentient beings? Yet they seem to only care about smashing stuff and never have any desire to settle down or pull any clever tricks. This mod changes that, allowing all semimegabeasts to pretend to be gods to take over human civilizations. There's not really any other way to make them interact with the world, but once they sucseed they begin to act like normal civilized creatures. Also, I've given them (exceptionally long) lifespans, allowing them to fear for their mortality, plus a few unique tricks for each one if they join a civ. As far as I can tell, they will still sometimes leave their civlization to attack your fortress, but they behave really strangely when doing so. That said, if they arrive as part of a seige, they are a force to be rekoned with. A well equipped minotaur or a iron-plated giant can pose a far greater threat than their savage cousins ever could.]
+
+[STEAM_TAG:tweak]
+[STEAM_TAG:entity]
+[STEAM_TAG:creature]
+[STEAM_KEY_VALUE_TAG:test:stuff]
+[STEAM_METADATA:metadata test]
+[STEAM_CHANGELOG:Inital upload]
+
+[STEAM_FILE_ID:2905286655]

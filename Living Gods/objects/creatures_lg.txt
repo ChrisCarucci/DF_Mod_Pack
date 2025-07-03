@@ -1,0 +1,42 @@
+creature_lg
+
+[OBJECT:CREATURE]
+
+[SELECT_CREATURE:CYCLOPS]
+	[LOCAL_POPS_PRODUCE_HEROES]
+	[LOCAL_POPS_CONTROLLABLE]
+	[POWER]
+	[MAXAGE:1500:2000]
+	Master smiths in legends, they can now create artifacts and forge very well
+	[NATURAL_SKILL:FORGE_WEAPON:11]
+	[NATURAL_SKILL:FORGE_ARMOR:11]
+	[NATURAL_SKILL:METALCRAFT:11]
+	[STRANGE_MOODS]
+
+[SELECT_CREATURE:ETTIN]
+	[LOCAL_POPS_PRODUCE_HEROES]
+	[LOCAL_POPS_CONTROLLABLE]
+	[POWER]
+	[MAXAGE:1000:1500]
+	Two heads are better than one, it certanly helps to always have two perspectives
+	[SKILL_LEARN_RATES:125]
+
+[SELECT_CREATURE:GIANT]
+	[LOCAL_POPS_PRODUCE_HEROES]
+	[LOCAL_POPS_CONTROLLABLE]
+	[POWER]
+	[MAXAGE:900:1250]
+	"I smell the blood of an englishman"? Honestly, I'm not totally sure what to do with giants
+	[SENSE_CREATURE_CLASS:MAMMAL:B:4:0:0]
+
+[SELECT_CREATURE:MINOTAUR]
+	[LOCAL_POPS_PRODUCE_HEROES]
+	[LOCAL_POPS_CONTROLLABLE]
+	[OUTSIDER_CONTROLLABLE]
+	[POWER]
+	[MAXAGE:750:1250]
+	Not only are they naturally good at fighting, competing in a million wresling competitions will teach them to be legendary quick
+	[SKILL_LEARN_RATE:WRESTLING:200]
+	[SKILL_LEARN_RATE:MELEE_COMBAT:200]
+	[SKILL_LEARN_RATE:DODGING:200]
+	[SKILL_LEARN_RATE:SITUATIONAL_AWARENESS:200]

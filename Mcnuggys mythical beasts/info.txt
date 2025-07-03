@@ -1,0 +1,18 @@
+[ID:mcnuggys mythical beast]
+[NUMERIC_VERSION:302]
+[DISPLAYED_VERSION:3.2]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:300]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:3.0]
+[AUTHOR:mcnuggy]
+[NAME:Mcnuggy's Mythical Beasts]
+[DESCRIPTION:Adds 36 different mythical beast that are common in fantasy media, as well as some less common ones that I thought would fit the setting.]
+
+[STEAM_TITLE:Mcnuggy's Mythical Beasts]
+
+[STEAM_TAG:mod]
+[STEAM_TAG:creatures]
+[STEAM_TAG:pet]
+[STEAM_TAG:megabeast]
+[STEAM_FILE_ID:3010868752]
+
+[STEAM_CHANGELOG:Fixed typo in Qilin's biome tag.]
