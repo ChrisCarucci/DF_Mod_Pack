@@ -1,8 +1,10 @@
+
 [ID:CARUCCIS_ELEMENTAL_CIVILIZATIONS]
 [NUMERIC_VERSION:3.0.0]
-[DISPLAYED_VERSION:2]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:01]
-[NAME:Caruccis Elemental Civilization Mod]
-[DISPLAYED_NAME:Carucci's Elemental Civilizations]
+[DISPLAYED_VERSION:3.0.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1.0.0]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.11]
+[NAME:Carucci’s Elemental Civilization Mod]
 [AUTHOR:Carucci]
-[DESCRIPTION:Four elemental human civilizations - Earth, Fire, Water, and Ice. Each with unique biomes, values, and leadership structures. Compatible with Dwarf Fortress Steam 51.11.]
+[DESCRIPTION:Four elemental human civilizations – Earth, Fire, Water, and Ice. Each with unique biomes, values, and leadership structures. Compatible with Dwarf Fortress Steam 51.11.]
+
