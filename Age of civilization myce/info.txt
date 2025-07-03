@@ -7,7 +7,7 @@
 [ID:age_of_civilizations_myce]
 [NUMERIC_VERSION:077]
 [DISPLAYED_VERSION:0.77]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:071]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:077]
 [AUTHOR:TwinCrows]
 [NAME:Age of Civilizations - Myce]
 [DESCRIPTION:Adds the Myce from the Age of Civilizations series.]

@@ -1,0 +1,43 @@
+[OBJECT:SYMBOL]
+
+[SYMBOL:EARTH_MOUNTAIN]
+	[S_WORD:mountain:mountains]
+
+[SYMBOL:EARTH_CAVERN]
+	[S_WORD:cavern:caverns]
+
+[SYMBOL:EARTH_CRYSTAL]
+	[S_WORD:crystal:crystals]
+
+[SYMBOL:EARTH_ROOT]
+	[S_WORD:root:roots]
+
+[SYMBOL:EARTH_BOULDER]
+	[S_WORD:boulder:boulders]
+
+[OBJECT:WORD]
+
+[WORD:EARTH_STONE]
+	[WORD:stone]
+	[NOUN:stone:stones]
+	[ADJ:stony]
+
+[WORD:EARTH_BEDROCK]
+	[WORD:bedrock]
+	[NOUN:bedrock:bedrock]
+	[ADJ:solid]
+
+[WORD:EARTH_GRANITE]
+	[WORD:granite]
+	[NOUN:granite:granite]
+	[ADJ:granite]
+
+[WORD:EARTH_DEPTH]
+	[WORD:depth]
+	[NOUN:depth:depths]
+	[ADJ:deep]
+
+[WORD:EARTH_TUNNEL]
+	[WORD:tunnel]
+	[NOUN:tunnel:tunnels]
+	[ADJ:tunneled]

@@ -1,0 +1,8 @@
+[OBJECT:ENTITY]
+
+// All elemental civilizations have been moved to separate entity files for modularity:
+// - entity_earth_humans.txt - Stone Realm (Terros the Mountain Heart)
+// - entity_fire_humans.txt - Flame Empire (Ignis the Flame Eternal) 
+// - entity_water_humans.txt - Tide Kingdom (Aquarius the Tide Bringer)
+// - entity_ice_humans.txt - Frost Dominion (Glacius the Eternal Frost)
+// - entity_storm_humans.txt - Thunder Realm (Tempestas the Storm Wing)
