@@ -5,10 +5,10 @@ A comprehensive Dwarf Fortress mod that introduces four distinct elemental civil
 ## Features
 
 ### Civilizations & Religious Orders
-- **Earth Humans** with **Earth Monks** - Masters of stone, metal, and underground mysteries
-- **Fire Humans** with **Flame Wardens** - Keepers of volcanic forges and solar magic  
-- **Storm Humans** with **Storm Tempests** - Wielders of lightning and sky powers
-- **Water Humans** with **Water Clerics** - Guardians of oceans, lakes, and tidal forces
+- **Earth Humans** with **Earth Monks** - Masters of stone, metal, and underground mysteries, blessed by the **Bronze Colossus** and **Minotaur** gods
+- **Fire Humans** with **Flame Wardens** - Keepers of volcanic forges and solar magic, guided by the **Dragon** and **Cyclops** gods
+- **Storm Humans** with **Storm Tempests** - Wielders of lightning and sky powers, empowered by the **Roc** god of wind and storm
+- **Water Humans** with **Water Clerics** - Guardians of oceans, lakes, and tidal forces, protected by the **Ice Dragon** god of water and ice
 
 ### Complete Industrial Systems
 Each religious order possesses the full spectrum of crafting abilities:
