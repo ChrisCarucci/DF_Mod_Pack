@@ -93,19 +93,7 @@ The Elemental Civilizations worship powerful deities who embody the primal force
 
 These gods actively influence the world through their chosen followers, granting divine powers and shaping the destinies of their elemental civilizations.
 
-<div align="center">
 
-## Synopsis
-
-</div>
-
-In the depths of the earth, where ancient civilizations once thrived, new peoples emerge from forgotten realms. The Boarth clatter through mountain passes with their bronze-tipped spears, while deep below, scaled Kobolds scheme in torch-lit warrens. Across vast grasslands, Centaur herds thunder past Halfling settlements where pipe-weed smoke drifts lazily from round doors. In shadowed forests, Dark Elves weave their sinister plots as Lycans howl beneath blood moons, and somewhere in the darkness, terrible Beholders drift through caverns with their many eyes gleaming.
-
-Yet these are not mere tales of old - they are living civilizations that will trade, war, and build alongside the familiar Dwarves, Humans, and Elves. From the industrious Ratfolk in their underground cities to the mighty Lizardmen with their dinosaur mounts, each brings unique customs, technologies, and challenges to your world. Whether you choose to play as these exotic peoples or face them as neighbors and enemies, the world of Dwarf Fortress has never been more diverse or dangerous.
-
-Among the most mystical of these new peoples are the Elemental Civilizations - human societies that have bound themselves to the primal forces of nature. The Tide Kingdom rules from coastal marshlands, their water mages summoning spirits from the depths. In frozen tundras, the Frost Dominion endures eternal winter under ice-crowned monarchs. High in storm-wracked peaks, the Thunder Realm's lightning marshals command the very sky, while in scorching deserts, the Flame Empire's sun speakers forge weapons in volcanic forges. Deep beneath ancient forests, the Stone Realm's earth speakers commune with mountain spirits and shape the bedrock itself.
-
-Each elemental civilization possesses unique magical traditions, divine patrons, and cultural values shaped by their chosen element. Their mages can bend their respective forces to devastating effect in battle, summoning elemental allies from the Aeramore realms to fight alongside mortal warriors. These are not merely human variants, but entirely distinct societies with their own gods, ethics, and destinies intertwined with the fundamental forces that shape the world.
 
 <div align="center">
 
