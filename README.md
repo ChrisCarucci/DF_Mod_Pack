@@ -23,39 +23,47 @@ Each elemental civilization possesses unique magical traditions, divine patrons,
 ### Playable Civilizations
 
 </div>
-- **Aeramore Expansion** by GasperV/Fatace - Multiple playable civilizations, creatures, materials, and workshops
-- **Age of Civ Boarth** by TwinCrows - Playable Boarth civilization with custom graphics and reactions
-- **Age of Civilization Myce** by TwinCrows - Playable halfling-like Myce civilization
-- **Blendec** by Bralbaard - Playable goat people civilization with pets, workshops, and custom items
-- **Caruccis Elemental Civilizations** by Carucci - Five elemental human civilizations: Water (Tide Kingdom), Ice (Frost Dominion), Storm (Thunder Realm), Fire (Flame Empire), and Earth (Stone Realm)
-- **Dark Elf Redux** by Endali - Playable enhanced dark elf civilization with graphics
-- **Intro Kobolds** by Introdile - Playable kobold civilization with detailed portrait graphics
-- **Lycans** by Aradar - Playable werewolf-like creatures for multiple races
-- **Mythical Beast Centaur Entity** by mcnuggy - Playable centaur civilization patch
-- **Ratfolk** by SEEU - Playable rat-like humanoid civilization
-- **Ratfolk Portraits** by mcnuggy - Portrait graphics for ratfolk
-- **Topple's Halflings** by Topples - Playable halfling civilization with custom mechanics
-- **Topple's Lizardmen** by Topples - Playable lizardfolk civilizations and creatures
-- **Topple's Orcs** by Topples - Playable orc subspecies and civilizations
+
+| Civilization | Author | Description |
+|--------------|--------|--------------|
+| **Aeramore Expansion** | GasperV/Fatace | Multiple playable civilizations with creatures, materials, and workshops |
+| **Boarth** | TwinCrows | Bronze-wielding mountain dwellers with custom graphics and reactions |
+| **Myce** | TwinCrows | Halfling-like civilization with unique cultural traits |
+| **Blendec** | Bralbaard | Goat people with specialized pets, workshops, and custom items |
+| **Elemental Civilizations** | Carucci | Five elemental human societies: Water, Ice, Storm, Fire, and Earth |
+| **Dark Elf Redux** | Endali | Enhanced dark elf civilization with detailed graphics |
+| **Kobolds** | Introdile | Scaled underground dwellers with detailed portrait graphics |
+| **Lycans** | Aradar | Werewolf-like shapeshifters for multiple races |
+| **Centaurs** | mcnuggy | Noble horse-people civilization |
+| **Ratfolk** | SEEU/mcnuggy | Underground rat-like humanoids with portrait graphics |
+| **Halflings** | Topples | Pipe-smoking folk with custom mechanics |
+| **Lizardmen** | Topples | Reptilian civilizations with dinosaur mounts |
+| **Orcs** | Topples | Multiple orc subspecies and tribal civilizations |
 
 <div align="center">
 
 ### Creatures & Content
 
 </div>
-- **Caldfir Colossus** by Caldfir - Adds colossal creatures and metal tools
-- **Caldfir Redragons** by Caldfir - Dragon creatures and statues
-- **Cave Goblins** by Digganob - Various goblin subspecies
-- **DND Beholder** by Deon - D&D-style beholder creatures
-- **Living Gods** by Count - Adds god-like creatures
-- **McNuggy's Mythical Beasts** by mcnuggy - Collection of fantasy creatures including centaurs
+
+| Mod | Author | Description |
+|-----|--------|--------------|
+| **Caldfir Colossus** | Caldfir | Massive metal beings and specialized tools |
+| **Caldfir Redragons** | Caldfir | Fearsome dragons with decorative statues |
+| **Cave Goblins** | Digganob | Underground goblin subspecies and variants |
+| **DND Beholder** | Deon | Multi-eyed aberrations from D&D lore |
+| **Living Gods** | Count | Divine beings that walk among mortals |
+| **Mythical Beasts** | mcnuggy | Fantasy creatures including centaurs and more |
 
 <div align="center">
 
 ### Graphics & Utilities
 
 </div>
-- **Reduced Z Fog** by Munashe - Graphics enhancement for z-level visibility
+
+| Mod | Author | Description |
+|-----|--------|--------------|
+| **Reduced Z Fog** | Munashe | Enhanced z-level visibility for better gameplay |
 
 <div align="center">
 
