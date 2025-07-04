@@ -6,8 +6,8 @@
 [SYMBOL:ICE_GLACIER]
 	[S_WORD:glacier:glaciers]
 
-[SYMBOL:ICE_CRYSTAL]
-	[S_WORD:crystal:crystals]
+[SYMBOL:ICE_FROST_CRYSTAL]
+	[S_WORD:frost crystal:frost crystals]
 
 [SYMBOL:ICE_BLIZZARD]
 	[S_WORD:blizzard:blizzards]
