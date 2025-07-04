@@ -2,8 +2,7 @@
 
 [CREATURE:IGNIS_DRAGON_GOD]
 	[COPY_TAGS_FROM:DRAGON]
-	[NAME:Ignis the Flame Eternal:Ignis the Flame Eternal:Ignis the Flame Eternal]
-	[CASTE_NAME:Ignis the Flame Eternal:Ignis the Flame Eternal:Ignis the Flame Eternal]
+	[GENERATED]
 	[DESCRIPTION:A colossal dragon wreathed in eternal flames, patron deity of fire elementalists. Its breath can melt mountains and its roar ignites the very air.]
 	[SPHERE:FIRE]
 	[SPHERE:VOLCANOES]
@@ -18,8 +17,7 @@
 
 [CREATURE:GLACIUS_ICE_DRAGON_GOD]
 	[COPY_TAGS_FROM:DRAGON]
-	[NAME:Glacius the Eternal Frost:Glacius the Eternal Frost:Glacius the Eternal Frost]
-	[CASTE_NAME:Glacius the Eternal Frost:Glacius the Eternal Frost:Glacius the Eternal Frost]
+	[GENERATED]
 	[DESCRIPTION:An immense ice dragon whose breath freezes entire valleys, patron deity of frost elementalists. Its presence brings eternal winter.]
 	[SPHERE:ICE]
 	[SPHERE:WINTER]
@@ -35,8 +33,7 @@
 
 [CREATURE:TERROS_COLOSSUS_GOD]
 	[COPY_TAGS_FROM:BRONZE_COLOSSUS]
-	[NAME:Terros the Mountain Heart:Terros the Mountain Heart:Terros the Mountain Heart]
-	[CASTE_NAME:Terros the Mountain Heart:Terros the Mountain Heart:Terros the Mountain Heart]
+	[GENERATED]
 	[DESCRIPTION:A titanic bronze colossus that embodies the strength of mountains, patron deity of earth elementalists. Its footsteps shake the world.]
 	[SPHERE:EARTH]
 	[SPHERE:MOUNTAINS]
@@ -52,8 +49,7 @@
 
 [CREATURE:AQUARIUS_SERPENT_GOD]
 	[COPY_TAGS_FROM:SEA_SERPENT]
-	[NAME:Aquarius the Tide Bringer:Aquarius the Tide Bringer:Aquarius the Tide Bringer]
-	[CASTE_NAME:Aquarius the Tide Bringer:Aquarius the Tide Bringer:Aquarius the Tide Bringer]
+	[GENERATED]
 	[DESCRIPTION:An undead sea serpent of immense proportions, patron deity of water elementalists. It commands the tides and storms of all oceans.]
 	[SPHERE:WATER]
 	[SPHERE:OCEANS]
@@ -70,8 +66,7 @@
 
 [CREATURE:TEMPESTAS_ROC_GOD]
 	[COPY_TAGS_FROM:ROC]
-	[NAME:Tempestas the Storm Wing:Tempestas the Storm Wing:Tempestas the Storm Wing]
-	[CASTE_NAME:Tempestas the Storm Wing:Tempestas the Storm Wing:Tempestas the Storm Wing]
+	[GENERATED]
 	[DESCRIPTION:A colossal roc whose wings command lightning and thunder, patron deity of storm elementalists. Its cry splits the sky with electric fury.]
 	[SPHERE:LIGHTNING]
 	[SPHERE:STORMS]
