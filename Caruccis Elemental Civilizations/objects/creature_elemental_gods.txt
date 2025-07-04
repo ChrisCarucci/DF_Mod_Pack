@@ -49,6 +49,7 @@
 
 [CREATURE:AQUARIUS_SERPENT_GOD]
 	[COPY_TAGS_FROM:SEA_SERPENT]
+	[CREATURE_CLASS:UNDEAD]
 	[GENERATED]
 	[DESCRIPTION:An undead sea serpent of immense proportions, patron deity of water elementalists. It commands the tides and storms of all oceans.]
 	[SPHERE:WATER]
