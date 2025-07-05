@@ -123,7 +123,7 @@ entity_water_clerics
 
 	[SELECT_SYMBOL:WAR:NAME_WAR]
 	[SUBSELECT_SYMBOL:WAR:VIOLENT]
-	[SELECT_SYMBOL:BATTLE:NAME_BATTLE] 
+	[SELECT_SYMBOL:BATTLE:NAME_BATTLE]_
 	[SUBSELECT_SYMBOL:BATTLE:VIOLENT]
 	[SELECT_SYMBOL:SIEGE:NAME_SIEGE]
 	[SUBSELECT_SYMBOL:SIEGE:VIOLENT]
@@ -282,7 +282,7 @@ entity_water_clerics
 	[PERMITTED_REACTION:EMPTY_DUMP_WATER_BUCKET]
 	
 	[POSITION:HIGH_PRIEST]
-		[NAME:tide high priest:tide high priests]
+		[NAME:tide_high_priest:tide_high_priests]
 		[NUMBER:1]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:1]
@@ -293,7 +293,7 @@ entity_water_clerics
 		[KILL_QUEST]
 		
 	[POSITION:CLERIC]
-		[NAME:water cleric:water clerics]
+		[NAME:water_cleric:water_clerics]
 		[NUMBER:2]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:10]
@@ -302,7 +302,7 @@ entity_water_clerics
 		[KILL_QUEST]
 		
 	[POSITION:TIDEGUARD]
-		[NAME:tide guard:tide guards]
+		[NAME:tide_guard:tide_guards]
 		[NUMBER:3]
 		[RESPONSIBILITY:LAW_ENFORCEMENT]
 		[PRECEDENCE:20]
@@ -311,7 +311,7 @@ entity_water_clerics
 		[KILL_QUEST]
 		
 	[POSITION:CHAPLAIN]
-		[NAME:water chaplain:water chaplains]
+		[NAME:water_chaplain:water_chaplains]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:30]
@@ -319,7 +319,7 @@ entity_water_clerics
 		[DUTY_BOUND]
 		
 	[POSITION:SCHOLAR]
-		[NAME:tide scholar:tide scholars]
+		[NAME:tide_scholar:tide_scholars]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:40]
@@ -327,7 +327,7 @@ entity_water_clerics
 		[DUTY_BOUND]
 		
 	[POSITION:ACOLYTE]
-		[NAME:water acolyte:water acolytes]
+		[NAME:water_acolyte:water_acolytes]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:50]
@@ -335,7 +335,7 @@ entity_water_clerics
 		[DUTY_BOUND]
 		
 	[POSITION:NOVICE]
-		[NAME:tide novice:tide novices]
+		[NAME:tide_novice:tide_novices]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:60]
