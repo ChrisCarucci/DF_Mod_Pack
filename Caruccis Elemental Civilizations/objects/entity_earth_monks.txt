@@ -939,9 +939,7 @@ entity_earth_monks
 		
 	[POSITION:SCHOLAR]
 		[NAME:earth_scholar:earth_scholars]
-		[NUMBER:AS_NEEDED]
-		[RESPONSIBILITY:SCHOLARSHIP]
-		[PRECEDENCE:40]
+		[NUMBER:AS_NEEDED]		[PRECEDENCE:40]
 		[DO_NOT_CULL]
 		[DUTY_BOUND]
 		
