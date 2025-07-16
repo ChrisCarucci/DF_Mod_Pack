@@ -547,7 +547,7 @@ entity_flame_wardens
 	[PERMITTED_REACTION:EMPTY_DUMP_WATER_BUCKET]
 	
 	[POSITION:HIGH_PRIEST]
-		[NAME:flame_high_priest:flame_high_priests]
+		[NAME:flame high priest:flame high priests]
 		[NUMBER:1]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:1]
@@ -558,7 +558,7 @@ entity_flame_wardens
 		[KILL_QUEST]
 		
 	[POSITION:WARDEN]
-		[NAME:flame_warden:flame_wardens]
+		[NAME:flame warden:flame wardens]
 		[NUMBER:2]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:10]
@@ -567,7 +567,7 @@ entity_flame_wardens
 		[KILL_QUEST]
 		
 	[POSITION:CRUSADER]
-		[NAME:flame_crusader:flame_crusaders]
+		[NAME:flame crusader:flame crusaders]
 		[NUMBER:3]
 		[RESPONSIBILITY:LAW_ENFORCEMENT]
 		[PRECEDENCE:20]
@@ -576,7 +576,7 @@ entity_flame_wardens
 		[KILL_QUEST]
 		
 	[POSITION:PRIEST]
-		[NAME:fire_priest:fire_priests]
+		[NAME:fire priest:fire priests]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:30]
@@ -584,7 +584,7 @@ entity_flame_wardens
 		[DUTY_BOUND]
 		
 	[POSITION:SCHOLAR]
-		[NAME:flame_scholar:flame_scholars]
+		[NAME:flame scholar:flame scholars]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:40]
@@ -592,7 +592,7 @@ entity_flame_wardens
 		[DUTY_BOUND]
 		
 	[POSITION:ACOLYTE]
-		[NAME:flame_acolyte:flame_acolytes]
+		[NAME:flame acolyte:flame acolytes]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:50]
@@ -600,7 +600,7 @@ entity_flame_wardens
 		[DUTY_BOUND]
 		
 	[POSITION:NOVICE]
-		[NAME:fire_novice:fire_novices]
+		[NAME:fire novice:fire novices]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:60]

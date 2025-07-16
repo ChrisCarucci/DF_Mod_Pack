@@ -901,7 +901,7 @@ entity_earth_monks
 	[PERMITTED_REACTION:EMPTY_DUMP_WATER_BUCKET]
 	
 	[POSITION:HIGH_PRIEST]
-		[NAME:earthen_high_priest:earthen_high_priests]
+		[NAME:earthen high priest:earthen high priests]
 		[NUMBER:1]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:1]
@@ -912,7 +912,7 @@ entity_earth_monks
 		[KILL_QUEST]
 		
 	[POSITION:ABBOT]
-		[NAME:stone_abbot:stone_abbots]
+		[NAME:stone abbot:stone abbots]
 		[NUMBER:2]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:10]
@@ -921,7 +921,7 @@ entity_earth_monks
 		[KILL_QUEST]
 		
 	[POSITION:GUARDIAN]
-		[NAME:earth_guardian:earth_guardians]
+		[NAME:earth guardian:earth guardians]
 		[NUMBER:3]
 		[RESPONSIBILITY:LAW_ENFORCEMENT]
 		[PRECEDENCE:20]
@@ -930,7 +930,7 @@ entity_earth_monks
 		[KILL_QUEST]
 		
 	[POSITION:MONK]
-		[NAME:stone_monk:stone_monks]
+		[NAME:stone monk:stone monks]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:30]
@@ -938,13 +938,13 @@ entity_earth_monks
 		[DUTY_BOUND]
 		
 	[POSITION:SCHOLAR]
-		[NAME:earth_scholar:earth_scholars]
+		[NAME:earth scholar:earth scholars]
 		[NUMBER:AS_NEEDED]		[PRECEDENCE:40]
 		[DO_NOT_CULL]
 		[DUTY_BOUND]
 		
 	[POSITION:INITIATE]
-		[NAME:stone_initiate:stone_initiates]
+		[NAME:stone initiate:stone initiates]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:50]
@@ -952,7 +952,7 @@ entity_earth_monks
 		[DUTY_BOUND]
 		
 	[POSITION:NOVICE]
-		[NAME:earth_novice:earth_novices]
+		[NAME:earth novice:earth novices]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:60]

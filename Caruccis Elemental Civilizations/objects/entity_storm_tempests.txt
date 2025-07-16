@@ -282,7 +282,7 @@ entity_storm_tempests
 	[PERMITTED_REACTION:EMPTY_DUMP_WATER_BUCKET]
 	
 	[POSITION:HIGH_PRIEST]
-		[NAME:storm_high_priest:storm_high_priests]
+		[NAME:storm high priest:storm high priests]
 		[NUMBER:1]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:1]
@@ -293,7 +293,7 @@ entity_storm_tempests
 		[KILL_QUEST]
 		
 	[POSITION:TEMPEST]
-		[NAME:storm_tempest:storm_tempests]
+		[NAME:storm tempest:storm tempests]
 		[NUMBER:2]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:10]
@@ -302,7 +302,7 @@ entity_storm_tempests
 		[KILL_QUEST]
 		
 	[POSITION:STORMGUARD]
-		[NAME:storm_guard:storm_guards]
+		[NAME:storm guard:storm guards]
 		[NUMBER:3]
 		[RESPONSIBILITY:LAW_ENFORCEMENT]
 		[PRECEDENCE:20]
@@ -311,7 +311,7 @@ entity_storm_tempests
 		[KILL_QUEST]
 		
 	[POSITION:ORACLE]
-		[NAME:storm_oracle:storm_oracles]
+		[NAME:storm oracle:storm oracles]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:30]
@@ -319,7 +319,7 @@ entity_storm_tempests
 		[DUTY_BOUND]
 		
 	[POSITION:SCHOLAR]
-		[NAME:storm_scholar:storm_scholars]
+		[NAME:storm scholar:storm scholars]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:40]
@@ -327,7 +327,7 @@ entity_storm_tempests
 		[DUTY_BOUND]
 		
 	[POSITION:DISCIPLE]
-		[NAME:storm_disciple:storm_disciples]
+		[NAME:storm disciple:storm disciples]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:50]
@@ -335,7 +335,7 @@ entity_storm_tempests
 		[DUTY_BOUND]
 		
 	[POSITION:NOVICE]
-		[NAME:storm_novice:storm_novices]
+		[NAME:storm novice:storm novices]
 		[NUMBER:AS_NEEDED]
 		[RESPONSIBILITY:RELIGION]
 		[PRECEDENCE:60]
