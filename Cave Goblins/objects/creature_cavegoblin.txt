@@ -29,6 +29,7 @@ creature_cavegoblin
 	[GOBBLE_VERMIN_CLASS:MAMMAL]
 	[GRASSTRAMPLE:10]
 	[CANOPENDOORS]
+	[CAN_LEARN]
 	[PREFSTRING:low cunning]
 	[PREFSTRING:terrifying features]
 	[NOCTURNAL]

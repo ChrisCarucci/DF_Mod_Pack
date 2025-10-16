@@ -16,6 +16,7 @@ creature_ratfolk
 	[NOCTURNAL]
 	[AMBUSHPREDATOR]
 	[FLEEQUICK]
+	[CAN_LEARN]
 	
 	[PREFSTRING:scheming nature]
 	[PREFSTRING:red eyes]

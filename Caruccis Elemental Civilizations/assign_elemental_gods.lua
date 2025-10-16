@@ -89,16 +89,20 @@ function assignGodToPosition(entity, position_name, creature_type, caste_id, god
         hf.name.first_name = "Earthshaker"
     elseif creature and creature.creature_id == "MINOTAUR" then
         hf.name.first_name = "Stonehorn"
-    elseif creature and creature.creature_id == "ELEMENTAL_CIVILIZATION_GODS" then
+    elseif creature and creature.creature_id == "DRAGON" then
         if caste_id == god_caste then -- god caste (Fire)
             hf.name.first_name = "Flameheart"
-        elseif caste_id == ice_caste then -- ice caste (Water)
+        end
+    elseif creature and creature.creature_id == "DRAGON_WATER" then
+        if caste_id == ice_caste then -- ice caste (Water)
             hf.name.first_name = "Frostscale"
-        elseif caste_id == storm_caste then -- storm caste
-            hf.name.first_name = "Stormwing"
         end
     elseif creature and creature.creature_id == "BIRD_ROC" then
-        hf.name.first_name = "Skytalon"
+        if caste_id == storm_caste then -- storm caste
+            hf.name.first_name = "Stormwing"
+        else
+            hf.name.first_name = "Skytalon"
+        end
     end
     
     -- Add to historical figures
@@ -148,14 +152,14 @@ function assignElementalGods()
     -- Get creature types
     local cyclops_id, _ = findCreatureType("CYCLOPS")
     local minotaur_id, _ = findCreatureType("MINOTAUR")
-    local dragon_id, god_caste = findCreatureType("ELEMENTAL_CIVILIZATION_GODS", "god")
-    local dragon_id2, ice_caste = findCreatureType("ELEMENTAL_CIVILIZATION_GODS", "ice")
-    local dragon_id3, storm_caste = findCreatureType("ELEMENTAL_CIVILIZATION_GODS", "storm")
+    local dragon_id, god_caste = findCreatureType("DRAGON", "GOD")
+    local dragon_water_id, ice_caste = findCreatureType("DRAGON_WATER", "ICE")
+    local roc_id2, storm_caste = findCreatureType("BIRD_ROC", "STORM")
     local roc_id, _ = findCreatureType("BIRD_ROC")
     
-    if not cyclops_id or not minotaur_id or not dragon_id or not roc_id or not god_caste or not ice_caste or not storm_caste then
+    if not cyclops_id or not minotaur_id or not dragon_id or not dragon_water_id or not roc_id or not roc_id2 or not god_caste or not ice_caste or not storm_caste then
         print("Error: Could not find all required creature types and castes")
-        print("Found: cyclops=" .. tostring(cyclops_id) .. ", minotaur=" .. tostring(minotaur_id) .. ", dragon=" .. tostring(dragon_id) .. ", roc=" .. tostring(roc_id))
+        print("Found: cyclops=" .. tostring(cyclops_id) .. ", minotaur=" .. tostring(minotaur_id) .. ", dragon=" .. tostring(dragon_id) .. ", dragon_water=" .. tostring(dragon_water_id) .. ", roc=" .. tostring(roc_id) .. ", roc_storm=" .. tostring(roc_id2))
         print("Castes: god=" .. tostring(god_caste) .. ", ice=" .. tostring(ice_caste) .. ", storm=" .. tostring(storm_caste))
         return
     end
@@ -180,19 +184,19 @@ function assignElementalGods()
     -- Water Humans - gets ice dragon
     local water_entity = findEntityByName("Water_Humans")
     if water_entity then
-        assignGodToPosition(water_entity, "DIVINE_OVERSEER", dragon_id, ice_caste, god_caste, ice_caste, storm_caste)
+        assignGodToPosition(water_entity, "DIVINE_OVERSEER", dragon_water_id, ice_caste, god_caste, ice_caste, storm_caste)
     else
         print("Warning: Water_Humans entity not found")
     end
     
-    -- Storm Humans - alternates between roc and storm dragon
+    -- Storm Humans - alternates between roc and storm roc
     local storm_entity = findEntityByName("Storm_Humans")
     if storm_entity then
         -- Use current year to determine which god to assign (alternating)
         if df.global.cur_year % 2 == 0 then
             assignGodToPosition(storm_entity, "DIVINE_OVERSEER", roc_id, 0, god_caste, ice_caste, storm_caste)
         else
-            assignGodToPosition(storm_entity, "DIVINE_OVERSEER", dragon_id, storm_caste, god_caste, ice_caste, storm_caste)
+            assignGodToPosition(storm_entity, "DIVINE_OVERSEER", roc_id2, storm_caste, god_caste, ice_caste, storm_caste)
         end
     else
         print("Warning: Storm_Humans entity not found")
