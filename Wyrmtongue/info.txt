@@ -1,0 +1,17 @@
+[ID:fb_wyrmtongue]
+
+[NUMERIC_VERSION:4]
+[DISPLAYED_VERSION:2.5.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0.0]
+
+[AUTHOR:20firebird]
+[NAME:FB's Wyrmtongue]
+[DESCRIPTION:Tiny mod that makes dragons intelligent.]
+
+[STEAM_TITLE:Wyrmtongue]
+[STEAM_DESCRIPTION:Tiny mod that makes dragons intelligent. They can talk, learn, and potentially join civilizations, even sometimes presenting themselves as gods.]
+[STEAM_TAG:tweak][STEAM_TAG:creature]
+[STEAM_CHANGELOG:Personality modifiers]
+
+[STEAM_FILE_ID:2941489330]
